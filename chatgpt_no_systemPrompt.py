@@ -2,7 +2,7 @@ import openai
 import time
 import json
 
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="sk-proj-")
 
 CONFIG = {
     "model": "gpt-4.1-mini",
