@@ -1,0 +1,7 @@
+{
+  "model": "us.meta.llama3-3-70b-instruct-v1:0",
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_tokens": 1000,
+  "system_prompt": "Respond naturally. If unclear, ask for clarification."
+}
