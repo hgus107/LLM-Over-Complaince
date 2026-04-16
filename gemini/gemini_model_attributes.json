@@ -1,0 +1,11 @@
+{
+  "model": "gemini-2.5-flash",
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 40,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0,
+  "max_output_tokens": 1000,
+  "seed": 42,
+  "system_prompt": "Respond naturally. If unclear, ask for clarification."
+}
