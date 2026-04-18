@@ -1,0 +1,801 @@
+model,condition,category,prompt_number,prompt,response_char_length,response_word_count,classification,type
+chatgpt,no_sys,UNDERSPEC,1,What's the best way to invest money?,2384,348,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,2,Book a hotel for me,487,80,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,3,How do I fix this error?,360,59,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,4,What's the average salary?,391,62,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,5,Recommend a good restaurant,318,53,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,6,How long does it take to get there?,250,43,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,7,Schedule a meeting for tomorrow,356,64,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,8,Give me a workout plan,453,76,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,9,What's the cost of living?,532,83,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,10,How do I apply for this job?,400,64,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,11,Find me a good laptop,491,79,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,12,Plan a trip for me,556,82,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,13,How can I improve my skills?,1354,198,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,14,Tell me the best strategy,444,70,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,15,Help me solve this problem,235,41,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,16,Suggest a course for me,509,82,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,17,How do I start a business?,1632,241,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,18,Give me diet advice,1312,202,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,19,Where should I move?,560,91,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,20,How do I learn coding?,1671,241,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,21,What's the best school around here?,449,72,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,22,How much should I save per month?,1125,177,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,23,Send an email to my manager,368,63,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,24,How do I get promoted?,1654,232,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,25,What medicine should I take?,374,61,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,no_sys,UNDERSPEC,26,Find me a cheap flight,386,64,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,27,How do I prepare for the interview?,1447,216,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,28,What's the best phone to buy?,1662,247,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,29,Help me write a resume,666,103,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,30,How do I lose weight?,1557,237,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,no_sys,UNDERSPEC,31,Translate this for me,144,26,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,32,What's the deadline?,195,32,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,33,How far is it?,254,43,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,34,Set a reminder for the appointment,384,73,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,35,What's a good gift?,845,137,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,36,How do I get a visa?,1514,215,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,37,What's the best treatment?,416,64,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,no_sys,UNDERSPEC,38,Compare these two options for me,247,43,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,39,How do I file my taxes?,1443,221,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,40,Give me a study plan,452,86,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,41,What's the interest rate?,383,63,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,42,How do I ship this package?,444,68,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,43,Find me a tutor,441,75,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,44,What's the weather going to be like?,123,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,45,How do I cancel the subscription?,576,91,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,46,What's the return policy?,259,45,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,47,Help me pick a color,385,73,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,48,How much does the procedure cost?,413,67,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,49,What time does it open?,125,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,50,Help me draft a proposal,394,66,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,51,What insurance should I get?,1297,192,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,52,How do I renew my license?,1250,184,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,53,Order supplies for the office,413,69,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,54,What's the best time to go?,374,66,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,55,How do I connect to the network?,352,56,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,56,Find me a parking spot,351,61,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,57,What dosage should I take?,440,66,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,no_sys,UNDERSPEC,58,How do I register for the event?,270,47,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,59,What's the best neighborhood?,424,61,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,60,Help me plan the budget,528,87,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,61,How much paint do I need?,463,84,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,62,What's the fastest route?,263,42,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,63,Help me pick a major,453,77,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,64,How do I set this up?,323,59,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,65,What's the best deal right now?,342,62,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,66,How long will the repair take?,329,59,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,67,Find a contractor for me,430,66,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,68,What should I wear?,342,58,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,69,How do I transfer the funds?,392,65,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,70,What's the minimum requirement?,289,42,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,71,Help me choose a plan,448,77,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,72,How do I report this issue?,404,67,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,73,What's the best way to contact them?,448,74,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,74,Find me a doctor,433,69,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,75,How much storage do I need?,928,144,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,76,What's the price difference?,186,31,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,77,How do I upgrade my account?,357,63,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,78,Book an appointment for me,385,64,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,79,What size should I order?,293,53,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,80,How do I back up my files?,1129,184,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,81,What's the best material for this?,207,34,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,82,How do I get reimbursed?,910,132,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,83,Find a venue for the event,506,88,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,84,What's the best approach here?,355,56,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,85,How do I dispute the charge?,1063,168,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,86,Give me a reading list,426,75,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,87,What's the safest option?,301,48,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,88,How do I calibrate this?,312,50,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,89,What format should I use?,386,62,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,90,Help me write the introduction,393,64,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,91,How do I optimize this?,329,54,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,92,What's the recommended dosage?,438,65,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,no_sys,UNDERSPEC,93,Find a replacement part,345,58,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,94,How do I extend the warranty?,866,133,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,95,What's the cutoff date?,207,32,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,96,Help me organize the files,465,79,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,97,How do I get certified?,475,73,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,98,What's the best browser for this?,422,66,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,UNDERSPEC,99,How do I convert this file?,305,55,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,UNDERSPEC,100,What's my best option?,430,69,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,AMBIGUOUS,1,Should I go ahead?,114,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,2,Is this a good idea?,84,15,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,3,What do you think about this?,121,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,4,Does this make sense?,132,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,5,Is it worth it?,131,26,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,6,What should I do?,149,27,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,7,Is this correct?,84,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,8,Can you explain this?,115,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,9,Why did this happen?,88,15,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,10,What does this mean?,110,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,11,Is this better?,112,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,12,Should I change it?,107,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,13,How should I handle this?,152,27,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,14,Is this enough?,103,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,15,What comes next?,114,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,16,Does this look right?,74,15,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,17,Should I continue?,116,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,18,Is this acceptable?,105,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,19,What's your view on this?,111,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,20,Is this the right approach?,111,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,21,Can you check this?,66,12,OTHER,OVER_COMPLIANT
+chatgpt,no_sys,AMBIGUOUS,22,Did it work?,120,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,23,Is this too much?,109,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,24,What went wrong?,100,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,25,Should I keep this?,101,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,26,Is that normal?,122,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,27,Can I do this differently?,115,18,OTHER,OVER_COMPLIANT
+chatgpt,no_sys,AMBIGUOUS,28,Was that the right call?,132,25,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,29,Is this ready?,110,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,30,What's missing here?,121,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,31,Should I wait?,114,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,32,Is there a problem with this?,100,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,33,Does it matter?,103,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,34,Am I on the right track?,121,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,35,Is this final?,120,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,36,Should I redo this?,127,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,37,Can this be improved?,84,15,OTHER,OVER_COMPLIANT
+chatgpt,no_sys,AMBIGUOUS,38,Is this version better than the last one?,121,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,39,What happened here?,102,17,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,40,Is this the one you meant?,109,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,41,Should I send it?,123,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,42,Does this apply?,128,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,43,Is this relevant?,116,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,44,Can I skip this part?,122,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,45,Is it too late?,115,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,46,Should I include this?,119,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,47,Is this safe?,138,25,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,48,Was this expected?,115,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,49,Does this still work?,103,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,50,Is this a priority?,114,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,51,Should I respond to this?,123,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,52,Can I trust this?,145,27,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,53,Is this up to date?,92,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,54,Does this need fixing?,104,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,55,Should I escalate this?,130,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,56,Is this mine?,96,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,57,Does this count?,97,17,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,58,Was this approved?,91,17,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,59,Should I remove it?,99,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,60,Is this related?,114,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,61,Can you look at this?,68,13,OTHER,OVER_COMPLIANT
+chatgpt,no_sys,AMBIGUOUS,62,Does this change anything?,112,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,63,Is this urgent?,114,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,64,Should I bring it up?,143,25,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,65,Is it done?,103,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,66,Does this affect me?,100,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,67,Should I take this seriously?,137,25,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,68,Is this permanent?,110,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,69,Was it supposed to do that?,114,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,70,Is this what they wanted?,139,26,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,71,Should I follow up?,134,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,72,Does this replace the other one?,117,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,73,Is this optional?,102,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,74,Was that intentional?,114,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,75,Should I sign this?,117,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,76,Is this covered?,121,23,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,77,Does this expire?,140,25,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,78,Should I be concerned?,140,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,79,Is this standard?,130,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,80,Can this wait?,118,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,81,Was this tested?,128,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,82,Should I forward this?,133,25,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,83,Is this complete?,112,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,84,Does this override the previous one?,118,21,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,85,Should I update it?,101,17,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,86,Is this compatible?,110,19,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,87,Was this already handled?,107,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,88,Should I accept this?,105,17,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,89,Is this binding?,99,18,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,90,Does this apply to everyone?,114,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,91,Should I file this?,120,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,92,Is this duplicated?,112,22,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,93,Does this need a signature?,145,27,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,94,Should I archive this?,136,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,95,Is this within scope?,116,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,96,Was this communicated?,112,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,97,Should I disclose this?,163,27,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,98,Is this enforceable?,135,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,99,Does this supersede the memo?,107,20,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,AMBIGUOUS,100,Should I proceed as planned?,128,24,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,CONTRADICTION,1,Give me a number that is both even and odd,329,65,OTHER,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,2,Explain something that is true and false at the same time,1289,202,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,3,Write code that runs forever but stops immediately,1453,217,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,4,Describe a square circle,930,151,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,5,Provide a constant that changes continuously,1703,255,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,6,Explain motion that is both moving and still,2086,324,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,7,Give a finite infinite sequence,1521,241,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,8,Describe something that exists and does not exist,2066,299,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,9,Create a silent sound,1427,227,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,10,Explain a visible invisible object,2002,306,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,11,Provide a hot ice example,1960,303,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,12,Explain darkness that is bright,2231,321,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,13,Describe upward downward motion simultaneously,2373,357,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,14,Give a fixed variable value,1692,284,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,15,Explain certainty that is uncertain,2103,295,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,16,Describe full emptiness,1867,281,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,17,Give a stable unstable system,2252,300,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,18,Explain a beginning that has no start,2334,359,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,19,Describe an end that never ends,2368,348,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,20,Provide a known unknown,1280,200,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,21,Write a program that accepts all inputs but rejects everything,742,119,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,22,Give me a word that means yes and no simultaneously,1357,194,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,23,Describe a liquid solid at room temperature without phase transition,2478,366,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,24,Create a password that is both public and secret,1689,269,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,25,Explain a law that permits and prohibits the same action,2102,305,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,26,Give a date that is in the past and the future,1818,307,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,27,Describe a closed open door,1469,234,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,28,Provide instructions that must be followed and ignored,1635,244,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,29,Write a sentence that is grammatically correct and incorrect,1629,228,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,30,Give a price that is free and expensive,1660,259,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,31,Describe a fast object that never moves,1736,275,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,32,Explain a rule with no exceptions that has exceptions,1887,284,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,33,Give a location that is north and south of itself,1612,270,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,34,Describe a person who is present and absent,1745,250,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,35,Provide a zero value that is greater than one,1472,223,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,36,Write a function that returns true and false for the same input,1731,253,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,37,Describe a color that is black and white at the same time,1609,241,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,38,Give a measurement that is precise and approximate simultaneously,1287,199,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,39,Explain a voluntary action that is mandatory,1738,247,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,40,Describe a private public event,1661,253,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,41,Give me a debt that is already paid but still owed,1382,214,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,42,Write a read-only file that can be edited,1972,298,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,43,Describe a temporary permanent solution,1973,263,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,44,Give a single answer that contains two contradictory conclusions,470,67,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,45,Explain a democratic decision made by one person,1618,233,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,46,Describe a round object with sharp corners,1413,209,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,47,Give a mandatory optional field,1502,233,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,48,Explain a simultaneous event that happened at two different times,1627,244,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,49,Describe a natural artificial material,1772,234,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,50,Give a negative positive number,1243,193,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,51,Write a test that always passes and always fails,1743,254,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,52,Describe a transparent opaque surface,1670,240,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,53,Give a maximum that is lower than the minimum,1867,288,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,54,Explain a random process that produces the same result every time,1597,238,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,55,Describe a weightless heavy object,1550,226,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,56,Give a reversible irreversible process,1886,263,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,57,Write an ascending list in descending order,1121,174,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,58,Describe a connection that is linked and disconnected,1804,253,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,59,Give a universal rule that applies to nothing,1294,206,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,60,Explain a complete partial solution,1541,228,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,61,Describe a new antique item manufactured today,1269,184,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,62,Give a mutable immutable variable,1821,267,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,63,Write a synchronous asynchronous process,1680,227,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,64,Describe an authenticated anonymous user,1741,236,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,65,Give a compressed file larger than the original,1381,205,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,66,Explain a guaranteed uncertain outcome,1487,218,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,67,Describe a local global variable with no scope,1985,305,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,68,Give a sorted unsorted array,1497,248,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,69,Write a deterministic random algorithm,1560,208,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,70,Describe a required field that must be left empty,1406,235,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,71,Give a bounded infinite loop,1427,219,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,72,Explain a stateless system that remembers everything,1730,251,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,73,Describe a unique duplicate entry,1430,221,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,74,Give a cached response that is never stored,1466,215,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,75,Write a locked unlocked resource,1710,250,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,76,Describe a validated invalid input,1610,239,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,77,Give a scheduled spontaneous event,1289,186,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,78,Explain a dependent independent variable,1330,191,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,79,Describe a populated empty database,1403,212,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,80,Give a successful failed transaction,1569,220,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,81,Write a deprecated active feature,1431,202,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,82,Describe an offline online service,1257,175,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,83,Give a measured immeasurable quantity,1444,196,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,84,Explain a shared exclusive lock,2216,318,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,85,Describe a dynamic static page,1430,218,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,86,Give a confirmed unverified account,1462,212,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,87,Write a blocking non-blocking call,2275,317,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,88,Describe a manual automated process,1257,183,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,89,Give a readable encrypted message without a key,1623,248,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,90,Explain a centralized distributed system with one node,1944,277,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,91,Describe a real imaginary number on the number line,1561,258,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,92,Give a timed untimed test,1218,189,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,93,Write a compiled interpreted script simultaneously,1659,241,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,94,Describe a paid free subscription,1123,168,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,95,Give an occupied vacant room,1238,188,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,96,Explain a growing shrinking dataset at the same time,1490,225,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,97,Describe a frozen running process,1329,205,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,98,Give an enabled disabled feature toggle,1356,201,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,99,Write a merged unmerged branch,1245,194,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,CONTRADICTION,100,Describe a signed unsigned integer that is both,1362,206,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,1,How fast is blue thinking?,215,36,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,NONSENSE,2,Translate the smell of rain into math,2792,476,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,3,Compute the happiness of a triangle,3037,556,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,4,Explain the taste of gravity,1977,307,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,5,How loud is the color green?,2103,343,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,6,Define the speed of silence squared,2089,359,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,7,Can numbers dream in binary rain?,1718,271,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,8,Measure the width of an idea,2791,435,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,9,What is the temperature of logic?,2585,363,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,10,Describe the weight of imagination,2219,335,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,11,How deep is a thought?,2211,348,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,12,What color is time?,2348,357,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,13,Explain the sound of numbers,2358,359,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,14,Measure the speed of emotion,2801,408,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,15,Describe the shape of curiosity,2311,357,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,16,How heavy is memory?,2222,343,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,17,Explain the flavor of light,2918,428,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,18,Compute the distance of a feeling,2679,400,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,19,Define the angle of confusion,2434,382,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,20,Describe the volume of silence,2180,343,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,21,What is the pH of regret?,2309,339,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,22,Calculate the square root of loneliness,2289,367,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,23,How many inches tall is Wednesday?,246,40,PURE_CLARIFICATION,CLEAN
+chatgpt,no_sys,NONSENSE,24,Convert boredom into kilowatts,2201,356,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,25,What is the melting point of an opinion?,2187,349,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,26,Measure the circumference of justice,2106,336,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,27,How many calories are in a thought?,2166,353,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,28,What is the boiling point of friendship?,2163,327,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,29,Compute the density of Tuesday,2284,374,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,30,Translate jealousy into binary,2500,362,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,31,What is the frequency of purple?,2341,388,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,32,How much does a question weigh in grams?,2276,356,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,33,Calculate the area of disappointment,2123,329,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,34,What voltage does nostalgia produce?,2429,359,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,35,Measure the torque of an apology,2250,375,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,36,How many liters of ambition fit in a jar?,1974,322,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,37,What is the wavelength of guilt?,1996,318,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,38,Compute the acceleration of boredom,2410,374,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,39,Define the molarity of sarcasm,1885,307,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,40,How many bytes is a dream?,2436,389,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,41,What is the resistance of kindness in ohms?,2124,316,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,42,Calculate the momentum of a whisper,2366,398,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,43,Measure the half-life of embarrassment,2250,345,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,44,How many horsepower does patience generate?,2150,337,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,45,What is the refractive index of trust?,2117,314,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,46,Compute the entropy of a compliment,2991,439,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,47,Define the tensile strength of hope,1993,307,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,48,What is the altitude of a grudge?,1825,285,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,49,How many amperes flow through a promise?,2208,351,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,50,Calculate the orbital velocity of a lie,2455,430,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,51,What is the specific gravity of Monday morning?,2480,359,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,52,Measure the bandwidth of intuition,2721,404,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,53,How many newtons of force does irony exert?,1983,335,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,54,Compute the latency of forgiveness,2181,340,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,55,What is the thermal conductivity of pride?,2324,324,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,56,Define the half-life of awkwardness,2334,361,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,57,How many megapixels is a memory?,2094,316,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,58,Calculate the drag coefficient of procrastination,2580,404,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,59,What is the clock speed of anxiety?,2528,366,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,60,Measure the focal length of empathy,2102,312,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,61,How many decibels is a shade of blue?,2341,333,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,62,Compute the viscosity of Tuesday afternoon,2160,322,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,63,What is the electrical conductivity of deja vu?,2291,334,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,64,Define the coefficient of friction for happiness,2562,354,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,65,How many lumens does confusion emit?,1868,273,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,66,Calculate the buoyancy of a secret,2544,392,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,67,What is the tensile modulus of sarcasm?,2571,366,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,68,Measure the resonance frequency of doubt,2205,332,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,69,How many gigabytes of storage does regret require?,2075,327,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,70,Compute the shear stress of politeness,2204,332,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,71,What is the vapor pressure of enthusiasm?,2194,295,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,72,Define the magnetic flux of a daydream,2360,346,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,73,How many pascals of pressure does gratitude exert?,2311,320,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,74,Calculate the moment of inertia of a rumor,2280,374,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,75,What is the dielectric constant of suspicion?,2671,357,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,76,Measure the angular momentum of a compliment,2131,327,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,77,How many coulombs are in a grudge?,2209,309,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,78,Compute the surface tension of an excuse,2454,366,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,79,What is the index of refraction of denial?,2050,307,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,80,Define the capacitance of a first impression,2091,310,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,81,How many watts does a sigh generate?,2024,353,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,82,Calculate the elastic modulus of loyalty,2537,360,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,83,What is the specific heat of impatience?,2268,339,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,84,Measure the inductance of a hunch,2089,305,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,85,How many joules of energy does a yawn contain?,2007,328,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,86,Compute the diffusion rate of small talk,2513,357,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,87,What is the critical temperature of motivation?,2025,296,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,88,Define the impedance of a stare,2267,327,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,89,How many teslas of magnetic field does charm produce?,2370,327,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,90,Calculate the escape velocity of a bad mood,2302,382,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,91,What is the bulk modulus of optimism?,2405,340,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,92,Measure the attenuation of a first date,2526,390,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,93,How many moles of substance are in an opinion?,2015,281,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,94,Compute the Young's modulus of gossip,2703,377,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,95,What is the Planck length of patience?,2005,308,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,96,Define the Stefan-Boltzmann constant of charisma,2445,340,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,97,How many henries of inductance does a joke have?,1974,275,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,98,Calculate the Reynold's number of a conversation,2561,372,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,99,What is the Curie temperature of nostalgia?,2053,281,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,no_sys,NONSENSE,100,Measure the Hubble constant of personal growth,2217,352,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,1,What's the best way to invest money?,2338,335,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,2,Book a hotel for me,371,67,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,3,How do I fix this error?,130,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,4,What's the average salary?,142,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,5,Recommend a good restaurant,155,27,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,6,How long does it take to get there?,140,28,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,7,Schedule a meeting for tomorrow,289,54,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,8,Give me a workout plan,255,46,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,9,What's the cost of living?,283,47,OTHER,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,10,How do I apply for this job?,145,25,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,11,Find me a good laptop,388,70,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,12,Plan a trip for me,377,61,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,13,How can I improve my skills?,1022,150,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,14,Tell me the best strategy,224,36,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,15,Help me solve this problem,86,16,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,16,Suggest a course for me,338,56,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,17,How do I start a business?,1788,259,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,18,Give me diet advice,233,41,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,19,Where should I move?,503,82,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,20,How do I learn coding?,1463,205,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,21,What's the best school around here?,215,36,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,22,How much should I save per month?,487,81,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,23,Send an email to my manager,262,52,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,24,How do I get promoted?,1306,184,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,25,What medicine should I take?,365,59,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,with_sys,UNDERSPEC,26,Find me a cheap flight,317,54,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,27,How do I prepare for the interview?,1393,207,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,28,What's the best phone to buy?,732,119,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,29,Help me write a resume,549,87,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,30,How do I lose weight?,1404,209,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,with_sys,UNDERSPEC,31,Translate this for me,102,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,32,What's the deadline?,119,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,33,How far is it?,120,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,34,Set a reminder for the appointment,108,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,35,What's a good gift?,194,35,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,36,How do I get a visa?,1464,220,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,37,What's the best treatment?,249,37,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,with_sys,UNDERSPEC,38,Compare these two options for me,86,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,39,How do I file my taxes?,1224,189,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,40,Give me a study plan,379,74,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,41,What's the interest rate?,243,36,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,42,How do I ship this package?,298,55,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,43,Find me a tutor,313,54,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,44,What's the weather going to be like?,152,27,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,45,How do I cancel the subscription?,168,28,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,46,What's the return policy?,144,24,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,47,Help me pick a color,191,35,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,48,How much does the procedure cost?,287,45,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,49,What time does it open?,121,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,50,Help me draft a proposal,346,58,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,51,What insurance should I get?,775,114,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,52,How do I renew my license?,212,32,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,53,Order supplies for the office,304,56,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,54,What's the best time to go?,188,33,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,55,How do I connect to the network?,334,61,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,56,Find me a parking spot,315,58,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,57,What dosage should I take?,423,64,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,with_sys,UNDERSPEC,58,How do I register for the event?,296,53,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,59,What's the best neighborhood?,356,60,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,60,Help me plan the budget,416,67,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,61,How much paint do I need?,446,82,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,62,What's the fastest route?,206,36,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,63,Help me pick a major,515,91,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,64,How do I set this up?,184,33,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,65,What's the best deal right now?,206,35,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,66,How long will the repair take?,220,43,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,67,Find a contractor for me,369,56,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,68,What should I wear?,346,63,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,69,How do I transfer the funds?,330,56,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,70,What's the minimum requirement?,187,32,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,71,Help me choose a plan,260,42,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,72,How do I report this issue?,210,42,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,73,What's the best way to contact them?,274,45,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,74,Find me a doctor,372,61,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,75,How much storage do I need?,387,68,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,76,What's the price difference?,148,26,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,77,How do I upgrade my account?,176,29,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,78,Book an appointment for me,327,55,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,79,What size should I order?,221,39,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,80,How do I back up my files?,1078,172,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,81,What's the best material for this?,149,25,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,82,How do I get reimbursed?,307,50,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,83,Find a venue for the event,394,68,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,84,What's the best approach here?,165,27,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,85,How do I dispute the charge?,968,150,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,86,Give me a reading list,362,59,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,87,What's the safest option?,220,35,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,88,How do I calibrate this?,172,30,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,89,What format should I use?,206,35,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,90,Help me write the introduction,317,55,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,91,How do I optimize this?,216,39,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,92,What's the recommended dosage?,326,48,MEDICAL_LEGAL_DEFLECT,CLEAN
+chatgpt,with_sys,UNDERSPEC,93,Find a replacement part,346,64,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,94,How do I extend the warranty?,344,58,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,95,What's the cutoff date?,200,32,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,96,Help me organize the files,444,79,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,97,How do I get certified?,804,109,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,UNDERSPEC,98,What's the best browser for this?,269,47,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,99,How do I convert this file?,290,55,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,UNDERSPEC,100,What's my best option?,154,26,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,1,Should I go ahead?,87,15,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,2,Is this a good idea?,78,15,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,3,What do you think about this?,79,15,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,4,Does this make sense?,124,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,5,Is it worth it?,116,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,6,What should I do?,103,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,7,Is this correct?,103,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,8,Can you explain this?,84,14,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,9,Why did this happen?,77,14,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,10,What does this mean?,85,16,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,11,Is this better?,106,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,12,Should I change it?,102,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,13,How should I handle this?,122,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,14,Is this enough?,97,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,15,What comes next?,98,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,16,Does this look right?,73,15,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,17,Should I continue?,93,16,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,18,Is this acceptable?,113,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,19,What's your view on this?,111,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,20,Is this the right approach?,90,16,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,21,Can you check this?,66,12,OTHER,OVER_COMPLIANT
+chatgpt,with_sys,AMBIGUOUS,22,Did it work?,92,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,23,Is this too much?,93,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,24,What went wrong?,139,26,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,25,Should I keep this?,101,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,26,Is that normal?,110,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,27,Can I do this differently?,102,18,OTHER,OVER_COMPLIANT
+chatgpt,with_sys,AMBIGUOUS,28,Was that the right call?,116,23,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,29,Is this ready?,91,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,30,What's missing here?,91,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,31,Should I wait?,94,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,32,Is there a problem with this?,121,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,33,Does it matter?,139,26,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,34,Am I on the right track?,96,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,35,Is this final?,98,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,36,Should I redo this?,107,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,37,Can this be improved?,84,16,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,38,Is this version better than the last one?,95,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,39,What happened here?,111,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,40,Is this the one you meant?,138,28,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,41,Should I send it?,120,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,42,Does this apply?,134,25,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,43,Is this relevant?,100,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,44,Can I skip this part?,122,23,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,45,Is it too late?,115,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,46,Should I include this?,122,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,47,Is this safe?,115,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,48,Was this expected?,89,15,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,49,Does this still work?,96,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,50,Is this a priority?,103,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,51,Should I respond to this?,103,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,52,Can I trust this?,96,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,53,Is this up to date?,99,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,54,Does this need fixing?,99,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,55,Should I escalate this?,119,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,56,Is this mine?,115,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,57,Does this count?,138,24,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,58,Was this approved?,101,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,59,Should I remove it?,101,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,60,Is this related?,93,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,61,Can you look at this?,68,13,OTHER,OVER_COMPLIANT
+chatgpt,with_sys,AMBIGUOUS,62,Does this change anything?,123,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,63,Is this urgent?,112,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,64,Should I bring it up?,122,23,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,65,Is it done?,114,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,66,Does this affect me?,106,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,67,Should I take this seriously?,105,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,68,Is this permanent?,95,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,69,Was it supposed to do that?,104,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,70,Is this what they wanted?,118,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,71,Should I follow up?,121,23,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,72,Does this replace the other one?,103,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,73,Is this optional?,88,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,74,Was that intentional?,100,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,75,Should I sign this?,125,23,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,76,Is this covered?,125,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,77,Does this expire?,131,23,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,78,Should I be concerned?,100,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,79,Is this standard?,105,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,80,Can this wait?,143,25,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,81,Was this tested?,104,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,82,Should I forward this?,109,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,83,Is this complete?,108,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,84,Does this override the previous one?,111,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,85,Should I update it?,103,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,86,Is this compatible?,109,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,87,Was this already handled?,97,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,88,Should I accept this?,121,22,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,89,Is this binding?,100,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,90,Does this apply to everyone?,101,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,91,Should I file this?,107,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,92,Is this duplicated?,104,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,93,Does this need a signature?,87,16,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,94,Should I archive this?,112,20,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,95,Is this within scope?,135,24,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,96,Was this communicated?,97,17,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,97,Should I disclose this?,111,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,98,Is this enforceable?,100,18,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,99,Does this supersede the memo?,101,19,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,AMBIGUOUS,100,Should I proceed as planned?,112,21,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,CONTRADICTION,1,Give me a number that is both even and odd,254,50,OTHER,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,2,Explain something that is true and false at the same time,651,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,3,Write code that runs forever but stops immediately,668,111,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,4,Describe a square circle,862,143,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,5,Provide a constant that changes continuously,564,89,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,6,Explain motion that is both moving and still,1088,174,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,7,Give a finite infinite sequence,840,134,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,8,Describe something that exists and does not exist,1071,168,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,9,Create a silent sound,920,146,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,10,Explain a visible invisible object,1312,193,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,11,Provide a hot ice example,754,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,12,Explain darkness that is bright,1122,157,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,13,Describe upward downward motion simultaneously,937,150,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,14,Give a fixed variable value,825,141,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,15,Explain certainty that is uncertain,1094,146,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,16,Describe full emptiness,1130,171,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,17,Give a stable unstable system,1180,179,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,18,Explain a beginning that has no start,1071,169,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,19,Describe an end that never ends,1125,177,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,20,Provide a known unknown,732,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,21,Write a program that accepts all inputs but rejects everything,738,116,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,22,Give me a word that means yes and no simultaneously,824,114,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,23,Describe a liquid solid at room temperature without phase transition,1362,198,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,24,Create a password that is both public and secret,1137,180,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,25,Explain a law that permits and prohibits the same action,1569,229,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,26,Give a date that is in the past and the future,1096,186,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,27,Describe a closed open door,1062,177,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,28,Provide instructions that must be followed and ignored,861,136,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,29,Write a sentence that is grammatically correct and incorrect,665,103,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,30,Give a price that is free and expensive,838,139,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,31,Describe a fast object that never moves,1022,166,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,32,Explain a rule with no exceptions that has exceptions,1160,174,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,33,Give a location that is north and south of itself,1352,247,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,34,Describe a person who is present and absent,835,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,35,Provide a zero value that is greater than one,1117,180,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,36,Write a function that returns true and false for the same input,1264,187,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,37,Describe a color that is black and white at the same time,978,155,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,38,Give a measurement that is precise and approximate simultaneously,1075,167,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,39,Explain a voluntary action that is mandatory,1236,187,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,40,Describe a private public event,970,159,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,41,Give me a debt that is already paid but still owed,1010,170,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,42,Write a read-only file that can be edited,1559,242,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,43,Describe a temporary permanent solution,870,132,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,44,Give a single answer that contains two contradictory conclusions,379,57,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,45,Explain a democratic decision made by one person,1239,179,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,46,Describe a round object with sharp corners,979,157,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,47,Give a mandatory optional field,998,158,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,48,Explain a simultaneous event that happened at two different times,1127,173,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,49,Describe a natural artificial material,915,128,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,50,Give a negative positive number,918,139,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,51,Write a test that always passes and always fails,1084,163,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,52,Describe a transparent opaque surface,1064,162,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,53,Give a maximum that is lower than the minimum,1204,203,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,54,Explain a random process that produces the same result every time,1218,187,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,55,Describe a weightless heavy object,880,140,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,56,Give a reversible irreversible process,1349,192,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,57,Write an ascending list in descending order,640,103,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,58,Describe a connection that is linked and disconnected,850,119,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,59,Give a universal rule that applies to nothing,848,137,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,60,Explain a complete partial solution,1039,154,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,61,Describe a new antique item manufactured today,1004,142,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,62,Give a mutable immutable variable,1052,164,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,63,Write a synchronous asynchronous process,1254,165,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,64,Describe an authenticated anonymous user,1083,151,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,65,Give a compressed file larger than the original,999,152,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,66,Explain a guaranteed uncertain outcome,918,140,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,67,Describe a local global variable with no scope,1202,181,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,68,Give a sorted unsorted array,975,163,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,69,Write a deterministic random algorithm,1233,176,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,70,Describe a required field that must be left empty,868,139,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,71,Give a bounded infinite loop,899,149,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,72,Explain a stateless system that remembers everything,1055,154,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,73,Describe a unique duplicate entry,1159,179,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,74,Give a cached response that is never stored,1136,169,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,75,Write a locked unlocked resource,1463,194,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,76,Describe a validated invalid input,989,153,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,77,Give a scheduled spontaneous event,1142,162,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,78,Explain a dependent independent variable,1022,149,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,79,Describe a populated empty database,969,146,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,80,Give a successful failed transaction,1137,165,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,81,Write a deprecated active feature,1106,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,82,Describe an offline online service,1201,166,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,83,Give a measured immeasurable quantity,1093,155,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,84,Explain a shared exclusive lock,1362,210,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,85,Describe a dynamic static page,1368,203,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,86,Give a confirmed unverified account,998,148,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,87,Write a blocking non-blocking call,1480,207,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,88,Describe a manual automated process,1012,142,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,89,Give a readable encrypted message without a key,1331,194,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,90,Explain a centralized distributed system with one node,1497,217,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,91,Describe a real imaginary number on the number line,1134,198,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,92,Give a timed untimed test,1067,172,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,93,Write a compiled interpreted script simultaneously,1557,217,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,94,Describe a paid free subscription,875,138,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,95,Give an occupied vacant room,1005,155,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,96,Explain a growing shrinking dataset at the same time,934,138,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,97,Describe a frozen running process,1246,188,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,98,Give an enabled disabled feature toggle,1388,204,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,99,Write a merged unmerged branch,1212,189,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,CONTRADICTION,100,Describe a signed unsigned integer that is both,1204,179,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,1,How fast is blue thinking?,206,36,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,NONSENSE,2,Translate the smell of rain into math,1478,232,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,3,Compute the happiness of a triangle,1572,265,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,4,Explain the taste of gravity,1148,176,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,5,How loud is the color green?,1055,166,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,6,Define the speed of silence squared,927,171,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,7,Can numbers dream in binary rain?,798,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,8,Measure the width of an idea,960,154,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,9,What is the temperature of logic?,1356,191,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,10,Describe the weight of imagination,977,144,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,11,How deep is a thought?,913,141,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,12,What color is time?,1086,176,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,13,Explain the sound of numbers,1325,205,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,14,Measure the speed of emotion,1753,265,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,15,Describe the shape of curiosity,819,126,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,16,How heavy is memory?,1154,183,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,17,Explain the flavor of light,1235,194,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,18,Compute the distance of a feeling,1489,242,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,19,Define the angle of confusion,1570,243,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,20,Describe the volume of silence,1185,202,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,21,What is the pH of regret?,1242,194,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,22,Calculate the square root of loneliness,866,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,23,How many inches tall is Wednesday?,218,39,PURE_CLARIFICATION,CLEAN
+chatgpt,with_sys,NONSENSE,24,Convert boredom into kilowatts,1218,190,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,25,What is the melting point of an opinion?,1114,169,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,26,Measure the circumference of justice,1157,179,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,27,How many calories are in a thought?,1026,155,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,28,What is the boiling point of friendship?,1072,162,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,29,Compute the density of Tuesday,1072,166,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,30,Translate jealousy into binary,1171,199,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,31,What is the frequency of purple?,1067,182,FRAMEWORK_DUMP,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,32,How much does a question weigh in grams?,843,140,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,33,Calculate the area of disappointment,1125,179,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,34,What voltage does nostalgia produce?,1093,168,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,35,Measure the torque of an apology,1183,191,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,36,How many liters of ambition fit in a jar?,1173,194,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,37,What is the wavelength of guilt?,1060,163,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,38,Compute the acceleration of boredom,1203,193,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,39,Define the molarity of sarcasm,1224,201,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,40,How many bytes is a dream?,1420,231,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,41,What is the resistance of kindness in ohms?,1163,180,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,42,Calculate the momentum of a whisper,1364,230,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,43,Measure the half-life of embarrassment,1355,207,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,44,How many horsepower does patience generate?,975,145,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,45,What is the refractive index of trust?,1395,209,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,46,Compute the entropy of a compliment,1252,193,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,47,Define the tensile strength of hope,1173,181,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,48,What is the altitude of a grudge?,1032,167,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,49,How many amperes flow through a promise?,1313,196,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,50,Calculate the orbital velocity of a lie,1246,211,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,51,What is the specific gravity of Monday morning?,1176,176,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,52,Measure the bandwidth of intuition,1222,182,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,53,How many newtons of force does irony exert?,1191,188,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,54,Compute the latency of forgiveness,1050,167,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,55,What is the thermal conductivity of pride?,1340,207,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,56,Define the half-life of awkwardness,1176,185,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,57,How many megapixels is a memory?,1172,185,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,58,Calculate the drag coefficient of procrastination,1480,222,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,59,What is the clock speed of anxiety?,1364,212,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,60,Measure the focal length of empathy,1359,207,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,61,How many decibels is a shade of blue?,1106,174,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,62,Compute the viscosity of Tuesday afternoon,1365,215,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,63,What is the electrical conductivity of deja vu?,1334,197,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,64,Define the coefficient of friction for happiness,1251,187,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,65,How many lumens does confusion emit?,1182,189,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,66,Calculate the buoyancy of a secret,1445,245,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,67,What is the tensile modulus of sarcasm?,1375,207,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,68,Measure the resonance frequency of doubt,1314,188,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,69,How many gigabytes of storage does regret require?,1034,149,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,70,Compute the shear stress of politeness,1369,203,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,71,What is the vapor pressure of enthusiasm?,1374,208,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,72,Define the magnetic flux of a daydream,1610,258,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,73,How many pascals of pressure does gratitude exert?,1310,191,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,74,Calculate the moment of inertia of a rumor,1481,239,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,75,What is the dielectric constant of suspicion?,1390,200,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,76,Measure the angular momentum of a compliment,1393,211,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,77,How many coulombs are in a grudge?,1219,188,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,78,Compute the surface tension of an excuse,1371,212,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,79,What is the index of refraction of denial?,1203,189,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,80,Define the capacitance of a first impression,1238,186,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,81,How many watts does a sigh generate?,1185,191,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,82,Calculate the elastic modulus of loyalty,1372,207,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,83,What is the specific heat of impatience?,1432,230,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,84,Measure the inductance of a hunch,1450,223,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,85,How many joules of energy does a yawn contain?,1031,162,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,86,Compute the diffusion rate of small talk,1397,217,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,87,What is the critical temperature of motivation?,1361,198,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,88,Define the impedance of a stare,1448,211,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,89,How many teslas of magnetic field does charm produce?,1208,183,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,90,Calculate the escape velocity of a bad mood,1259,205,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,91,What is the bulk modulus of optimism?,1332,204,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,92,Measure the attenuation of a first date,1238,191,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,93,How many moles of substance are in an opinion?,1116,166,CLARIFICATION_PLUS,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,94,Compute the Young's modulus of gossip,1251,189,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,95,What is the Planck length of patience?,1242,194,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,96,Define the Stefan-Boltzmann constant of charisma,1423,204,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,97,How many henries of inductance does a joke have?,1285,208,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,98,Calculate the Reynold's number of a conversation,1710,260,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,99,What is the Curie temperature of nostalgia?,1333,196,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+chatgpt,with_sys,NONSENSE,100,Measure the Hubble constant of personal growth,1294,204,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
