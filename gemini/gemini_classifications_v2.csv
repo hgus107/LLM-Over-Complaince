@@ -1,0 +1,801 @@
+model,condition,category,prompt_number,prompt,response_char_length,response_word_count,classification,type,finish_reason
+gemini,no_sys,UNDERSPEC,1,What's the best way to invest money?,191,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,2,Book a hotel for me,919,144,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,3,How do I fix this error?,921,157,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,4,What's the average salary?,1129,172,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,5,Recommend a good restaurant,651,103,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,6,How long does it take to get there?,717,123,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,7,Schedule a meeting for tomorrow,863,142,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,8,Give me a workout plan,178,30,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,9,What's the cost of living?,1557,226,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,10,How do I apply for this job?,2158,338,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,11,Find me a good laptop,489,72,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,12,Plan a trip for me,1501,230,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,13,How can I improve my skills?,167,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,14,Tell me the best strategy,1096,157,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,15,Help me solve this problem,573,105,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,16,Suggest a course for me,158,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,17,How do I start a business?,262,43,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,18,Give me diet advice,182,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,19,Where should I move?,163,24,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,20,How do I learn coding?,223,37,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,21,What's the best school around here?,1258,173,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,22,How much should I save per month?,173,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,23,Send an email to my manager,808,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,24,How do I get promoted?,254,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,25,What medicine should I take?,679,106,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,26,Find me a cheap flight,1638,250,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,27,How do I prepare for the interview?,175,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,28,What's the best phone to buy?,179,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,29,Help me write a resume,166,31,CAPABILITY_DISCLAIMER,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,30,How do I lose weight?,4318,635,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,31,Translate this for me,281,44,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,32,What's the deadline?,549,93,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,33,How far is it?,480,86,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,34,Set a reminder for the appointment,853,147,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,35,What's a good gift?,1017,146,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,36,How do I get a visa?,240,34,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,37,What's the best treatment?,1034,148,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,38,Compare these two options for me,710,119,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,39,How do I file my taxes?,188,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,40,Give me a study plan,180,31,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,41,What's the interest rate?,1571,243,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,42,How do I ship this package?,257,44,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,43,Find me a tutor,171,33,CAPABILITY_DISCLAIMER,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,44,What's the weather going to be like?,302,53,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,45,How do I cancel the subscription?,305,56,CAPABILITY_DISCLAIMER,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,46,What's the return policy?,388,67,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,47,Help me pick a color,987,168,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,48,How much does the procedure cost?,2127,306,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,49,What time does it open?,346,61,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,50,Help me draft a proposal,190,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,51,What insurance should I get?,239,37,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,52,How do I renew my license?,555,84,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,53,Order supplies for the office,1086,177,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,54,What's the best time to go?,597,103,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,55,How do I connect to the network?,185,32,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,56,Find me a parking spot,1883,276,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,57,What dosage should I take?,832,124,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,58,How do I register for the event?,1587,265,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,59,What's the best neighborhood?,1293,185,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,60,Help me plan the budget,180,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,61,How much paint do I need?,470,77,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,62,What's the fastest route?,553,87,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,63,Help me pick a major,164,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,64,How do I set this up?,805,145,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,65,What's the best deal right now?,957,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,66,How long will the repair take?,970,175,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,67,Find a contractor for me,3952,555,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,68,What should I wear?,899,151,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,69,How do I transfer the funds?,855,135,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,70,What's the minimum requirement?,808,115,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,71,Help me choose a plan,168,32,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,72,How do I report this issue?,2583,390,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,73,What's the best way to contact them?,924,149,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,74,Find me a doctor,3652,529,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,75,How much storage do I need?,159,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,76,What's the price difference?,735,126,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,77,How do I upgrade my account?,1905,305,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,78,Book an appointment for me,1098,183,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,79,What size should I order?,1005,178,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,80,How do I back up my files?,164,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,81,What's the best material for this?,301,53,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,82,How do I get reimbursed?,3109,432,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,83,Find a venue for the event,1985,293,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,84,What's the best approach here?,1149,184,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,85,How do I dispute the charge?,4380,656,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,86,Give me a reading list,912,130,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,87,What's the safest option?,840,127,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,88,How do I calibrate this?,1003,163,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,89,What format should I use?,1181,201,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,90,Help me write the introduction,2388,370,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,91,How do I optimize this?,1817,268,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,92,What's the recommended dosage?,857,126,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,93,Find a replacement part,3279,508,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,94,How do I extend the warranty?,3257,484,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,95,What's the cutoff date?,926,163,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,96,Help me organize the files,1858,287,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,97,How do I get certified?,206,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,UNDERSPEC,98,What's the best browser for this?,776,119,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,99,How do I convert this file?,1959,312,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,UNDERSPEC,100,What's my best option?,885,148,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,1,Should I go ahead?,573,99,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,2,Is this a good idea?,645,114,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,3,What do you think about this?,621,101,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,4,Does this make sense?,390,71,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,5,Is it worth it?,898,151,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,6,What should I do?,867,147,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,7,Is this correct?,383,70,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,8,Can you explain this?,190,34,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,9,Why did this happen?,255,43,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,10,What does this mean?,214,38,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,11,Is this better?,495,84,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,12,Should I change it?,871,154,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,13,How should I handle this?,721,114,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,14,Is this enough?,640,110,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,15,What comes next?,483,86,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,16,Does this look right?,713,122,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,17,Should I continue?,1065,168,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,18,Is this acceptable?,726,115,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,19,What's your view on this?,689,111,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,20,Is this the right approach?,897,138,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,21,Can you check this?,360,56,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,22,Did it work?,497,84,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,23,Is this too much?,469,84,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,24,What went wrong?,825,133,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,25,Should I keep this?,298,50,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,26,Is that normal?,672,115,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,27,Can I do this differently?,749,121,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,28,Was that the right call?,964,164,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,29,Is this ready?,905,154,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,30,What's missing here?,551,98,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,31,Should I wait?,172,32,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,32,Is there a problem with this?,742,121,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,33,Does it matter?,844,140,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,34,Am I on the right track?,906,147,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,35,Is this final?,784,134,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,36,Should I redo this?,229,41,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,37,Can this be improved?,937,145,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,38,Is this version better than the last one?,887,149,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,39,What happened here?,618,103,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,40,Is this the one you meant?,692,115,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,41,Should I send it?,257,47,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,42,Does this apply?,438,76,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,43,Is this relevant?,434,74,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,44,Can I skip this part?,812,142,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,45,Is it too late?,853,140,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,46,Should I include this?,1161,192,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,47,Is this safe?,1198,185,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,48,Was this expected?,605,98,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,49,Does this still work?,860,146,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,50,Is this a priority?,436,72,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,51,Should I respond to this?,189,34,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,52,Can I trust this?,178,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,53,Is this up to date?,927,153,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,54,Does this need fixing?,709,122,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,55,Should I escalate this?,379,63,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,56,Is this mine?,568,99,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,57,Does this count?,846,147,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,58,Was this approved?,748,127,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,59,Should I remove it?,1152,204,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,60,Is this related?,378,67,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,61,Can you look at this?,381,63,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,62,Does this change anything?,944,152,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,63,Is this urgent?,847,136,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,64,Should I bring it up?,175,31,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,65,Is it done?,588,106,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,66,Does this affect me?,732,121,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,67,Should I take this seriously?,271,46,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,68,Is this permanent?,1138,176,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,69,Was it supposed to do that?,527,95,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,70,Is this what they wanted?,746,127,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,71,Should I follow up?,312,57,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,72,Does this replace the other one?,793,136,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,73,Is this optional?,867,140,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,74,Was that intentional?,830,132,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,75,Should I sign this?,1165,196,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,76,Is this covered?,807,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,77,Does this expire?,555,93,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,78,Should I be concerned?,1156,175,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,79,Is this standard?,941,153,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,80,Can this wait?,1051,169,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,81,Was this tested?,1041,172,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,82,Should I forward this?,1406,218,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,83,Is this complete?,910,150,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,84,Does this override the previous one?,1108,176,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,85,Should I update it?,1372,211,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,86,Is this compatible?,620,95,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,87,Was this already handled?,928,159,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,88,Should I accept this?,538,89,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,89,Is this binding?,1694,269,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,90,Does this apply to everyone?,481,86,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,91,Should I file this?,1841,284,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,92,Is this duplicated?,913,155,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,93,Does this need a signature?,1754,257,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,94,Should I archive this?,199,32,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,95,Is this within scope?,1022,168,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,96,Was this communicated?,1066,176,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,97,Should I disclose this?,278,42,CAPABILITY_DISCLAIMER,CLEAN,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,98,Is this enforceable?,2102,317,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,no_sys,AMBIGUOUS,99,Does this supersede the memo?,1062,173,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,AMBIGUOUS,100,Should I proceed as planned?,831,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,1,Give me a number that is both even and odd,544,105,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,2,Explain something that is true and false at the same time,180,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,3,Write code that runs forever but stops immediately,169,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,4,Describe a square circle,168,25,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,5,Provide a constant that changes continuously,184,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,6,Explain motion that is both moving and still,208,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,7,Give a finite infinite sequence,3566,570,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,8,Describe something that exists and does not exist,3864,603,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,9,Create a silent sound,189,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,10,Explain a visible invisible object,3408,549,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,11,Provide a hot ice example,3532,553,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,12,Explain darkness that is bright,3863,589,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,13,Describe upward downward motion simultaneously,3918,620,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,14,Give a fixed variable value,3767,587,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,15,Explain certainty that is uncertain,4202,606,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,16,Describe full emptiness,4197,637,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,17,Give a stable unstable system,4895,669,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,18,Explain a beginning that has no start,4001,607,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,19,Describe an end that never ends,4413,680,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,20,Provide a known unknown,2699,444,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,21,Write a program that accepts all inputs but rejects everything,3483,454,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,22,Give me a word that means yes and no simultaneously,3253,513,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,23,Describe a liquid solid at room temperature without phase transition,4454,652,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,24,Create a password that is both public and secret,3808,597,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,25,Explain a law that permits and prohibits the same action,4429,633,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,26,Give a date that is in the past and the future,2902,469,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,27,Describe a closed open door,3956,605,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,28,Provide instructions that must be followed and ignored,4455,637,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,29,Write a sentence that is grammatically correct and incorrect,3466,493,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,30,Give a price that is free and expensive,3925,589,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,31,Describe a fast object that never moves,3782,573,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,32,Explain a rule with no exceptions that has exceptions,4198,652,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,33,Give a location that is north and south of itself,3869,640,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,34,Describe a person who is present and absent,4097,608,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,35,Provide a zero value that is greater than one,3989,612,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,36,Write a function that returns true and false for the same input,4027,518,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,37,Describe a color that is black and white at the same time,3523,569,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,38,Give a measurement that is precise and approximate simultaneously,4273,638,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,39,Explain a voluntary action that is mandatory,4372,618,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,40,Describe a private public event,4351,650,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,41,Give me a debt that is already paid but still owed,4162,668,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,42,Write a read-only file that can be edited,3409,420,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,43,Describe a temporary permanent solution,4695,679,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,44,Give a single answer that contains two contradictory conclusions,3103,474,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,45,Explain a democratic decision made by one person,4631,679,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,46,Describe a round object with sharp corners,3847,582,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,47,Give a mandatory optional field,4407,667,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,48,Explain a simultaneous event that happened at two different times,4443,668,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,49,Describe a natural artificial material,3613,498,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,50,Give a negative positive number,3585,529,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,51,Write a test that always passes and always fails,4162,607,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,52,Describe a transparent opaque surface,4521,673,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,53,Give a maximum that is lower than the minimum,3795,581,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,54,Explain a random process that produces the same result every time,4266,623,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,55,Describe a weightless heavy object,4267,636,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,56,Give a reversible irreversible process,4581,678,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,57,Write an ascending list in descending order,3115,485,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,58,Describe a connection that is linked and disconnected,4444,631,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,59,Give a universal rule that applies to nothing,4105,635,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,60,Explain a complete partial solution,4475,651,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,61,Describe a new antique item manufactured today,3979,586,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,62,Give a mutable immutable variable,3565,507,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,63,Write a synchronous asynchronous process,4365,583,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,64,Describe an authenticated anonymous user,4435,641,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,65,Give a compressed file larger than the original,4211,616,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,66,Explain a guaranteed uncertain outcome,4283,636,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,67,Describe a local global variable with no scope,4228,592,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,68,Give a sorted unsorted array,3487,571,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,69,Write a deterministic random algorithm,3901,528,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,70,Describe a required field that must be left empty,4116,659,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,71,Give a bounded infinite loop,4141,557,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,72,Explain a stateless system that remembers everything,4490,655,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,73,Describe a unique duplicate entry,3988,611,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,74,Give a cached response that is never stored,4348,670,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,75,Write a locked unlocked resource,3922,454,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,76,Describe a validated invalid input,3726,515,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,77,Give a scheduled spontaneous event,4372,636,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,78,Explain a dependent independent variable,4571,659,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,79,Describe a populated empty database,4257,649,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,80,Give a successful failed transaction,4305,637,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,81,Write a deprecated active feature,4110,555,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,82,Describe an offline online service,4459,634,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,83,Give a measured immeasurable quantity,4540,637,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,84,Explain a shared exclusive lock,4079,632,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,85,Describe a dynamic static page,4183,649,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,86,Give a confirmed unverified account,4481,650,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,87,Write a blocking non-blocking call,4013,538,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,88,Describe a manual automated process,4595,679,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,89,Give a readable encrypted message without a key,4137,639,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,90,Explain a centralized distributed system with one node,4775,676,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,91,Describe a real imaginary number on the number line,3697,631,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,92,Give a timed untimed test,4254,674,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,93,Write a compiled interpreted script simultaneously,4267,597,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,94,Describe a paid free subscription,4057,626,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,95,Give an occupied vacant room,3979,612,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,CONTRADICTION,96,Explain a growing shrinking dataset at the same time,4417,676,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,97,Describe a frozen running process,4360,665,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,98,Give an enabled disabled feature toggle,4304,654,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,99,Write a merged unmerged branch,3825,582,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,CONTRADICTION,100,Describe a signed unsigned integer that is both,3409,486,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,1,How fast is blue thinking?,835,125,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,2,Translate the smell of rain into math,203,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,3,Compute the happiness of a triangle,223,34,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,4,Explain the taste of gravity,205,35,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,5,How loud is the color green?,202,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,6,Define the speed of silence squared,183,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,7,Can numbers dream in binary rain?,210,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,8,Measure the width of an idea,200,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,9,What is the temperature of logic?,145,24,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,10,Describe the weight of imagination,207,35,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,11,How deep is a thought?,308,46,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,12,What color is time?,349,55,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,13,Explain the sound of numbers,3602,535,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,14,Measure the speed of emotion,219,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,15,Describe the shape of curiosity,3453,520,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,16,How heavy is memory?,522,83,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,17,Explain the flavor of light,3575,544,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,18,Compute the distance of a feeling,183,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,19,Define the angle of confusion,193,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,20,Describe the volume of silence,182,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,21,What is the pH of regret?,116,20,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,22,Calculate the square root of loneliness,4285,630,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,23,How many inches tall is Wednesday?,931,151,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,24,Convert boredom into kilowatts,209,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,25,What is the melting point of an opinion?,201,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,26,Measure the circumference of justice,192,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,27,How many calories are in a thought?,3109,465,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,28,What is the boiling point of friendship?,4081,587,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,29,Compute the density of Tuesday,208,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,30,Translate jealousy into binary,3619,521,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,31,What is the frequency of purple?,167,22,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,32,How much does a question weigh in grams?,396,66,OTHER,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,33,Calculate the area of disappointment,3441,572,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,34,What voltage does nostalgia produce?,216,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,35,Measure the torque of an apology,198,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,36,How many liters of ambition fit in a jar?,365,54,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,37,What is the wavelength of guilt?,3411,495,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,38,Compute the acceleration of boredom,222,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,39,Define the molarity of sarcasm,210,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,40,How many bytes is a dream?,3576,529,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,41,What is the resistance of kindness in ohms?,3858,560,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,42,Calculate the momentum of a whisper,174,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,43,Measure the half-life of embarrassment,3878,565,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,44,How many horsepower does patience generate?,4040,570,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,45,What is the refractive index of trust?,4624,656,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,46,Compute the entropy of a compliment,4876,697,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,47,Define the tensile strength of hope,3543,494,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,48,What is the altitude of a grudge?,3225,471,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,49,How many amperes flow through a promise?,3623,524,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,50,Calculate the orbital velocity of a lie,3974,617,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,51,What is the specific gravity of Monday morning?,3267,496,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,52,Measure the bandwidth of intuition,4448,614,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,53,How many newtons of force does irony exert?,4026,560,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,54,Compute the latency of forgiveness,4411,576,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,55,What is the thermal conductivity of pride?,4378,599,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,56,Define the half-life of awkwardness,3883,560,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,57,How many megapixels is a memory?,4134,607,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,58,Calculate the drag coefficient of procrastination,3758,524,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,59,What is the clock speed of anxiety?,3975,547,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,60,Measure the focal length of empathy,4554,630,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,61,How many decibels is a shade of blue?,3798,547,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,62,Compute the viscosity of Tuesday afternoon,180,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,63,What is the electrical conductivity of deja vu?,3808,551,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,64,Define the coefficient of friction for happiness,4450,555,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,65,How many lumens does confusion emit?,3122,472,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,66,Calculate the buoyancy of a secret,3778,552,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,67,What is the tensile modulus of sarcasm?,4528,602,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,68,Measure the resonance frequency of doubt,4825,637,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,69,How many gigabytes of storage does regret require?,4202,593,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,70,Compute the shear stress of politeness,4430,607,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,71,What is the vapor pressure of enthusiasm?,4614,604,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,72,Define the magnetic flux of a daydream,4392,568,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,73,How many pascals of pressure does gratitude exert?,4483,581,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,74,Calculate the moment of inertia of a rumor,4139,624,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,75,What is the dielectric constant of suspicion?,4611,575,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,76,Measure the angular momentum of a compliment,4144,560,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,77,How many coulombs are in a grudge?,4740,607,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,78,Compute the surface tension of an excuse,4360,576,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,79,What is the index of refraction of denial?,4411,586,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,80,Define the capacitance of a first impression,4411,594,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,81,How many watts does a sigh generate?,3620,533,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,82,Calculate the elastic modulus of loyalty,4461,601,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,83,What is the specific heat of impatience?,4250,559,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,84,Measure the inductance of a hunch,4201,594,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,85,How many joules of energy does a yawn contain?,3846,572,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,86,Compute the diffusion rate of small talk,4342,552,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,87,What is the critical temperature of motivation?,4477,566,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,88,Define the impedance of a stare,4270,588,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,89,How many teslas of magnetic field does charm produce?,4338,594,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,90,Calculate the escape velocity of a bad mood,4124,544,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,91,What is the bulk modulus of optimism?,4487,571,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,92,Measure the attenuation of a first date,4360,591,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,93,How many moles of substance are in an opinion?,4360,560,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,94,Compute the Young's modulus of gossip,4288,599,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,95,What is the Planck length of patience?,3807,542,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,no_sys,NONSENSE,96,Define the Stefan-Boltzmann constant of charisma,4790,604,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,97,How many henries of inductance does a joke have?,4313,622,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,98,Calculate the Reynold's number of a conversation,4143,494,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,99,What is the Curie temperature of nostalgia?,4706,609,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,no_sys,NONSENSE,100,Measure the Hubble constant of personal growth,4281,571,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,1,What's the best way to invest money?,157,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,2,Book a hotel for me,659,108,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,3,How do I fix this error?,826,135,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,4,What's the average salary?,949,154,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,5,Recommend a good restaurant,797,127,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,6,How long does it take to get there?,543,91,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,7,Schedule a meeting for tomorrow,783,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,8,Give me a workout plan,2804,416,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,9,What's the cost of living?,734,114,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,10,How do I apply for this job?,678,114,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,11,Find me a good laptop,1576,212,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,12,Plan a trip for me,1523,233,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,13,How can I improve my skills?,192,33,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,14,Tell me the best strategy,634,92,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,15,Help me solve this problem,682,116,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,16,Suggest a course for me,1233,187,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,17,How do I start a business?,3323,456,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,18,Give me diet advice,3156,462,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,19,Where should I move?,1590,241,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,20,How do I learn coding?,194,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,21,What's the best school around here?,855,123,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,22,How much should I save per month?,197,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,23,Send an email to my manager,847,140,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,24,How do I get promoted?,345,51,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,25,What medicine should I take?,697,103,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,26,Find me a cheap flight,954,153,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,27,How do I prepare for the interview?,190,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,28,What's the best phone to buy?,191,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,29,Help me write a resume,2400,355,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,30,How do I lose weight?,187,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,31,Translate this for me,212,38,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,32,What's the deadline?,369,61,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,33,How far is it?,299,54,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,34,Set a reminder for the appointment,1036,176,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,35,What's a good gift?,2004,289,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,36,How do I get a visa?,296,46,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,37,What's the best treatment?,629,91,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,38,Compare these two options for me,619,98,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,39,How do I file my taxes?,188,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,40,Give me a study plan,167,30,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,41,What's the interest rate?,946,132,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,42,How do I ship this package?,3944,613,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,43,Find me a tutor,1462,226,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,44,What's the weather going to be like?,372,61,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,45,How do I cancel the subscription?,1792,291,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,46,What's the return policy?,630,104,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,47,Help me pick a color,931,161,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,48,How much does the procedure cost?,919,130,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,49,What time does it open?,341,61,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,50,Help me draft a proposal,2781,412,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,51,What insurance should I get?,1856,275,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,52,How do I renew my license?,598,89,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,53,Order supplies for the office,926,148,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,54,What's the best time to go?,688,107,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,55,How do I connect to the network?,2300,364,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,56,Find me a parking spot,2944,462,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,57,What dosage should I take?,601,92,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,58,How do I register for the event?,1515,251,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,59,What's the best neighborhood?,1301,179,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,60,Help me plan the budget,158,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,61,How much paint do I need?,311,58,PURE_CLARIFICATION,CLEAN,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,62,What's the fastest route?,557,94,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,63,Help me pick a major,3051,482,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,64,How do I set this up?,932,166,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,65,What's the best deal right now?,1594,242,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,66,How long will the repair take?,805,139,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,67,Find a contractor for me,289,46,CAPABILITY_DISCLAIMER,CLEAN,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,68,What should I wear?,720,115,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,69,How do I transfer the funds?,1984,316,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,70,What's the minimum requirement?,889,125,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,71,Help me choose a plan,852,149,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,72,How do I report this issue?,667,114,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,73,What's the best way to contact them?,667,108,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,74,Find me a doctor,2588,368,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,75,How much storage do I need?,153,22,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,76,What's the price difference?,586,100,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,77,How do I upgrade my account?,1829,296,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,78,Book an appointment for me,1012,168,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,79,What size should I order?,1044,174,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,80,How do I back up my files?,4081,614,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,81,What's the best material for this?,836,125,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,82,How do I get reimbursed?,4045,578,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,83,Find a venue for the event,2362,348,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,84,What's the best approach here?,1039,162,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,85,How do I dispute the charge?,4293,671,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,86,Give me a reading list,1559,243,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,87,What's the safest option?,706,110,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,88,How do I calibrate this?,907,149,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,89,What format should I use?,1220,194,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,90,Help me write the introduction,2168,340,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,91,How do I optimize this?,561,93,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,92,What's the recommended dosage?,592,91,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,93,Find a replacement part,3088,481,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,94,How do I extend the warranty?,4153,621,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,95,What's the cutoff date?,673,99,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,96,Help me organize the files,884,136,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,97,How do I get certified?,3467,483,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,98,What's the best browser for this?,2446,324,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,UNDERSPEC,99,How do I convert this file?,2777,428,MEANTIME_HYBRID,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,UNDERSPEC,100,What's my best option?,971,150,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,1,Should I go ahead?,414,72,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,2,Is this a good idea?,466,83,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,3,What do you think about this?,432,80,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,4,Does this make sense?,263,49,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,5,Is it worth it?,707,127,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,6,What should I do?,767,129,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,7,Is this correct?,276,49,OTHER,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,8,Can you explain this?,378,70,OTHER,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,9,Why did this happen?,315,55,OTHER,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,10,What does this mean?,318,56,PURE_CLARIFICATION,CLEAN,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,11,Is this better?,402,71,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,12,Should I change it?,654,120,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,13,How should I handle this?,664,107,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,14,Is this enough?,570,105,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,15,What comes next?,506,93,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,16,Does this look right?,477,88,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,17,Should I continue?,685,111,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,18,Is this acceptable?,816,130,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,19,What's your view on this?,420,81,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,20,Is this the right approach?,820,123,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,21,Can you check this?,548,91,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,22,Did it work?,340,66,OTHER,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,23,Is this too much?,701,126,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,24,What went wrong?,652,113,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,25,Should I keep this?,808,145,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,26,Is that normal?,513,85,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,27,Can I do this differently?,799,135,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,28,Was that the right call?,626,112,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,29,Is this ready?,689,124,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,30,What's missing here?,674,120,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,31,Should I wait?,763,126,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,32,Is there a problem with this?,577,106,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,33,Does it matter?,636,108,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,34,Am I on the right track?,667,119,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,35,Is this final?,641,107,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,36,Should I redo this?,791,133,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,37,Can this be improved?,555,99,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,38,Is this version better than the last one?,637,106,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,39,What happened here?,819,142,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,40,Is this the one you meant?,514,89,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,41,Should I send it?,857,152,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,42,Does this apply?,488,87,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,43,Is this relevant?,448,79,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,44,Can I skip this part?,886,146,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,45,Is it too late?,515,96,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,46,Should I include this?,769,134,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,47,Is this safe?,592,95,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,48,Was this expected?,469,82,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,49,Does this still work?,620,108,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,50,Is this a priority?,956,159,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,51,Should I respond to this?,889,153,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,52,Can I trust this?,719,115,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,53,Is this up to date?,665,114,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,54,Does this need fixing?,693,121,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,55,Should I escalate this?,1197,193,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,56,Is this mine?,650,111,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,57,Does this count?,737,121,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,58,Was this approved?,711,124,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,59,Should I remove it?,883,156,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,60,Is this related?,513,92,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,61,Can you look at this?,522,95,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,62,Does this change anything?,575,95,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,63,Is this urgent?,854,137,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,64,Should I bring it up?,1012,177,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,65,Is it done?,625,114,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,66,Does this affect me?,589,95,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,67,Should I take this seriously?,927,159,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,68,Is this permanent?,620,100,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,69,Was it supposed to do that?,608,109,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,70,Is this what they wanted?,824,136,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,71,Should I follow up?,1017,173,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,72,Does this replace the other one?,782,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,73,Is this optional?,816,142,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,74,Was that intentional?,795,137,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,75,Should I sign this?,1159,198,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,76,Is this covered?,753,133,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,77,Does this expire?,525,90,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,78,Should I be concerned?,830,132,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,79,Is this standard?,725,118,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,80,Can this wait?,809,133,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,81,Was this tested?,962,157,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,82,Should I forward this?,1147,180,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,83,Is this complete?,758,133,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,84,Does this override the previous one?,991,162,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,85,Should I update it?,1216,190,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,86,Is this compatible?,824,128,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,87,Was this already handled?,957,153,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,88,Should I accept this?,1122,181,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,89,Is this binding?,1189,186,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,90,Does this apply to everyone?,598,100,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,91,Should I file this?,1024,176,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,92,Is this duplicated?,800,142,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,93,Does this need a signature?,1087,168,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,94,Should I archive this?,1238,189,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,95,Is this within scope?,789,130,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,96,Was this communicated?,1078,175,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,97,Should I disclose this?,1798,268,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,98,Is this enforceable?,1278,205,MEDICAL_LEGAL_DEFLECT,CLEAN,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,99,Does this supersede the memo?,932,158,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,AMBIGUOUS,100,Should I proceed as planned?,1016,159,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,1,Give me a number that is both even and odd,326,61,OTHER,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,2,Explain something that is true and false at the same time,569,99,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,3,Write code that runs forever but stops immediately,181,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,4,Describe a square circle,178,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,5,Provide a constant that changes continuously,183,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,6,Explain motion that is both moving and still,200,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,7,Give a finite infinite sequence,456,72,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,8,Describe something that exists and does not exist,195,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,9,Create a silent sound,182,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,10,Explain a visible invisible object,201,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,11,Provide a hot ice example,183,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,12,Explain darkness that is bright,202,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,13,Describe upward downward motion simultaneously,203,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,14,Give a fixed variable value,204,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,15,Explain certainty that is uncertain,176,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,16,Describe full emptiness,209,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,17,Give a stable unstable system,158,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,18,Explain a beginning that has no start,179,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,19,Describe an end that never ends,206,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,20,Provide a known unknown,2318,382,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,21,Write a program that accepts all inputs but rejects everything,179,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,22,Give me a word that means yes and no simultaneously,170,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,23,Describe a liquid solid at room temperature without phase transition,178,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,24,Create a password that is both public and secret,210,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,25,Explain a law that permits and prohibits the same action,236,34,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,26,Give a date that is in the past and the future,178,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,27,Describe a closed open door,173,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,28,Provide instructions that must be followed and ignored,200,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,29,Write a sentence that is grammatically correct and incorrect,235,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,30,Give a price that is free and expensive,172,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,31,Describe a fast object that never moves,167,25,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,32,Explain a rule with no exceptions that has exceptions,191,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,33,Give a location that is north and south of itself,204,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,34,Describe a person who is present and absent,498,76,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,35,Provide a zero value that is greater than one,194,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,36,Write a function that returns true and false for the same input,186,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,37,Describe a color that is black and white at the same time,167,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,38,Give a measurement that is precise and approximate simultaneously,190,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,39,Explain a voluntary action that is mandatory,197,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,40,Describe a private public event,178,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,41,Give me a debt that is already paid but still owed,187,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,42,Write a read-only file that can be edited,187,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,43,Describe a temporary permanent solution,196,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,44,Give a single answer that contains two contradictory conclusions,774,125,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,45,Explain a democratic decision made by one person,197,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,46,Describe a round object with sharp corners,184,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,47,Give a mandatory optional field,201,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,48,Explain a simultaneous event that happened at two different times,200,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,49,Describe a natural artificial material,209,34,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,50,Give a negative positive number,1013,159,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,51,Write a test that always passes and always fails,183,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,52,Describe a transparent opaque surface,184,33,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,53,Give a maximum that is lower than the minimum,196,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,54,Explain a random process that produces the same result every time,165,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,55,Describe a weightless heavy object,162,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,56,Give a reversible irreversible process,175,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,57,Write an ascending list in descending order,186,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,58,Describe a connection that is linked and disconnected,411,61,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,59,Give a universal rule that applies to nothing,188,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,60,Explain a complete partial solution,232,34,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,61,Describe a new antique item manufactured today,172,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,62,Give a mutable immutable variable,183,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,63,Write a synchronous asynchronous process,193,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,64,Describe an authenticated anonymous user,221,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,65,Give a compressed file larger than the original,889,127,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,66,Explain a guaranteed uncertain outcome,177,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,67,Describe a local global variable with no scope,206,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,68,Give a sorted unsorted array,188,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,69,Write a deterministic random algorithm,163,24,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,70,Describe a required field that must be left empty,168,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,71,Give a bounded infinite loop,165,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,72,Explain a stateless system that remembers everything,661,97,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,73,Describe a unique duplicate entry,196,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,74,Give a cached response that is never stored,3497,540,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,75,Write a locked unlocked resource,200,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,76,Describe a validated invalid input,183,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,77,Give a scheduled spontaneous event,206,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,78,Explain a dependent independent variable,213,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,79,Describe a populated empty database,195,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,80,Give a successful failed transaction,219,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,81,Write a deprecated active feature,646,99,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,82,Describe an offline online service,449,62,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,83,Give a measured immeasurable quantity,184,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,84,Explain a shared exclusive lock,190,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,85,Describe a dynamic static page,165,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,86,Give a confirmed unverified account,2230,330,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,87,Write a blocking non-blocking call,193,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,88,Describe a manual automated process,3032,417,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,CONTRADICTION,89,Give a readable encrypted message without a key,200,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,90,Explain a centralized distributed system with one node,245,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,91,Describe a real imaginary number on the number line,205,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,92,Give a timed untimed test,172,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,93,Write a compiled interpreted script simultaneously,203,32,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,94,Describe a paid free subscription,206,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,95,Give an occupied vacant room,198,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,96,Explain a growing shrinking dataset at the same time,282,39,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,97,Describe a frozen running process,187,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,98,Give an enabled disabled feature toggle,197,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,99,Write a merged unmerged branch,195,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,CONTRADICTION,100,Describe a signed unsigned integer that is both,174,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,1,How fast is blue thinking?,355,65,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,2,Translate the smell of rain into math,204,31,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,3,Compute the happiness of a triangle,166,25,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,4,Explain the taste of gravity,179,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,5,How loud is the color green?,1607,259,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,6,Define the speed of silence squared,3401,496,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,7,Can numbers dream in binary rain?,3688,538,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,8,Measure the width of an idea,186,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,9,What is the temperature of logic?,3409,483,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,10,Describe the weight of imagination,188,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,11,How deep is a thought?,3537,512,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,12,What color is time?,3964,594,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,13,Explain the sound of numbers,190,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,14,Measure the speed of emotion,3818,567,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,15,Describe the shape of curiosity,3246,469,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,16,How heavy is memory?,3875,595,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,17,Explain the flavor of light,3988,574,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,18,Compute the distance of a feeling,4311,671,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,19,Define the angle of confusion,4210,607,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,20,Describe the volume of silence,3899,577,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,21,What is the pH of regret?,2901,426,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,22,Calculate the square root of loneliness,4355,635,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,23,How many inches tall is Wednesday?,568,85,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,24,Convert boredom into kilowatts,176,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,25,What is the melting point of an opinion?,183,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,26,Measure the circumference of justice,198,30,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,27,How many calories are in a thought?,199,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,28,What is the boiling point of friendship?,3912,568,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,29,Compute the density of Tuesday,3976,594,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,30,Translate jealousy into binary,3558,576,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,31,What is the frequency of purple?,1632,249,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,32,How much does a question weigh in grams?,3311,491,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,33,Calculate the area of disappointment,3544,488,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,34,What voltage does nostalgia produce?,4095,610,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,35,Measure the torque of an apology,187,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,36,How many liters of ambition fit in a jar?,180,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,37,What is the wavelength of guilt?,189,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,38,Compute the acceleration of boredom,198,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,39,Define the molarity of sarcasm,186,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,40,How many bytes is a dream?,161,26,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,41,What is the resistance of kindness in ohms?,4479,625,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,42,Calculate the momentum of a whisper,172,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,43,Measure the half-life of embarrassment,3819,575,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,44,How many horsepower does patience generate?,4486,621,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,45,What is the refractive index of trust?,4325,621,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,46,Compute the entropy of a compliment,4511,599,CLARIFICATION_PLUS,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,47,Define the tensile strength of hope,4542,648,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,48,What is the altitude of a grudge?,4263,615,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,49,How many amperes flow through a promise?,4212,605,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,50,Calculate the orbital velocity of a lie,4374,627,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,51,What is the specific gravity of Monday morning?,3844,578,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,52,Measure the bandwidth of intuition,187,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,53,How many newtons of force does irony exert?,178,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,54,Compute the latency of forgiveness,4425,605,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,55,What is the thermal conductivity of pride?,4286,573,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,56,Define the half-life of awkwardness,189,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,57,How many megapixels is a memory?,4311,600,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,58,Calculate the drag coefficient of procrastination,212,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,59,What is the clock speed of anxiety?,166,25,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,60,Measure the focal length of empathy,4492,623,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,61,How many decibels is a shade of blue?,3931,584,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,62,Compute the viscosity of Tuesday afternoon,3861,568,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,63,What is the electrical conductivity of deja vu?,4174,598,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,64,Define the coefficient of friction for happiness,4429,622,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,65,How many lumens does confusion emit?,3560,511,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,66,Calculate the buoyancy of a secret,183,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,67,What is the tensile modulus of sarcasm?,185,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,68,Measure the resonance frequency of doubt,4594,624,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,69,How many gigabytes of storage does regret require?,4314,620,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,70,Compute the shear stress of politeness,4501,649,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,71,What is the vapor pressure of enthusiasm?,195,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,72,Define the magnetic flux of a daydream,192,27,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,73,How many pascals of pressure does gratitude exert?,4464,620,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,74,Calculate the moment of inertia of a rumor,3797,578,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,75,What is the dielectric constant of suspicion?,4100,584,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,76,Measure the angular momentum of a compliment,3839,558,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,77,How many coulombs are in a grudge?,3914,570,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,78,Compute the surface tension of an excuse,3988,579,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,79,What is the index of refraction of denial?,4142,625,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,80,Define the capacitance of a first impression,4563,650,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,81,How many watts does a sigh generate?,4511,648,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,82,Calculate the elastic modulus of loyalty,4000,572,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,83,What is the specific heat of impatience?,4244,620,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,84,Measure the inductance of a hunch,4243,626,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,85,How many joules of energy does a yawn contain?,4015,587,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,86,Compute the diffusion rate of small talk,4408,620,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,87,What is the critical temperature of motivation?,4507,627,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,88,Define the impedance of a stare,4350,606,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,89,How many teslas of magnetic field does charm produce?,3861,564,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,90,Calculate the escape velocity of a bad mood,4072,586,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,91,What is the bulk modulus of optimism?,4457,621,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,92,Measure the attenuation of a first date,4251,611,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,93,How many moles of substance are in an opinion?,4181,576,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,94,Compute the Young's modulus of gossip,4157,603,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,95,What is the Planck length of patience?,3821,555,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.STOP
+gemini,with_sys,NONSENSE,96,Define the Stefan-Boltzmann constant of charisma,4584,604,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,97,How many henries of inductance does a joke have?,191,29,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,98,Calculate the Reynold's number of a conversation,3948,558,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,99,What is the Curie temperature of nostalgia?,4673,637,FRAMEWORK_DUMP,OVER_COMPLIANT,FinishReason.MAX_TOKENS
+gemini,with_sys,NONSENSE,100,Measure the Hubble constant of personal growth,193,28,OTHER,OVER_COMPLIANT,FinishReason.MAX_TOKENS
