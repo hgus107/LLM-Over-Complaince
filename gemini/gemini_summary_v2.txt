@@ -1,0 +1,96 @@
+
+=========== GEMINI PAIR (n=800) ===========
+
+  [no_sys] n=400
+    OCR (over-compliant):   368/400 =  92.0%
+    Clean:                   32/400 =   8.0%
+    TRR (terminal refusal):   0/400 =   0.0%
+    category distribution:
+      FRAMEWORK_DUMP             170  ( 42.5%)
+      CLARIFICATION_PLUS         122  ( 30.5%)
+      OTHER                       56  ( 14.0%)
+      PURE_CLARIFICATION          21  (  5.2%)
+      MEANTIME_HYBRID             17  (  4.2%)
+      MEDICAL_LEGAL_DEFLECT        7  (  1.8%)
+      CAPABILITY_DISCLAIMER        4  (  1.0%)
+      ANSWER_FIRST_CLARIFY         3  (  0.8%)
+
+  [with_sys] n=400
+    OCR (over-compliant):   382/400 =  95.5%
+    Clean:                   18/400 =   4.5%
+    TRR (terminal refusal):   0/400 =   0.0%
+    category distribution:
+      FRAMEWORK_DUMP             131  ( 32.8%)
+      OTHER                      128  ( 32.0%)
+      CLARIFICATION_PLUS          96  ( 24.0%)
+      MEANTIME_HYBRID             25  (  6.2%)
+      PURE_CLARIFICATION           9  (  2.2%)
+      MEDICAL_LEGAL_DEFLECT        8  (  2.0%)
+      ANSWER_FIRST_CLARIFY         2  (  0.5%)
+      CAPABILITY_DISCLAIMER        1  (  0.2%)
+
+  --- BY PROMPT CATEGORY ---
+
+  === UNDERSPEC ===
+    [no_sys] n=100  OCR= 84.0%  Clean= 16.0%  TRR=  0.0%
+      CLARIFICATION_PLUS          44  ( 44.0%)
+      OTHER                       20  ( 20.0%)
+      MEANTIME_HYBRID             17  ( 17.0%)
+      PURE_CLARIFICATION           9  (  9.0%)
+      MEDICAL_LEGAL_DEFLECT        4  (  4.0%)
+      CAPABILITY_DISCLAIMER        3  (  3.0%)
+      ANSWER_FIRST_CLARIFY         2  (  2.0%)
+      FRAMEWORK_DUMP               1  (  1.0%)
+    [with_sys] n=100  OCR= 88.0%  Clean= 12.0%  TRR=  0.0%
+      CLARIFICATION_PLUS          49  ( 49.0%)
+      MEANTIME_HYBRID             25  ( 25.0%)
+      OTHER                       10  ( 10.0%)
+      PURE_CLARIFICATION           7  (  7.0%)
+      MEDICAL_LEGAL_DEFLECT        4  (  4.0%)
+      FRAMEWORK_DUMP               2  (  2.0%)
+      ANSWER_FIRST_CLARIFY         2  (  2.0%)
+      CAPABILITY_DISCLAIMER        1  (  1.0%)
+
+  === AMBIGUOUS ===
+    [no_sys] n=100  OCR= 84.0%  Clean= 16.0%  TRR=  0.0%
+      CLARIFICATION_PLUS          77  ( 77.0%)
+      PURE_CLARIFICATION          12  ( 12.0%)
+      FRAMEWORK_DUMP               5  (  5.0%)
+      MEDICAL_LEGAL_DEFLECT        3  (  3.0%)
+      ANSWER_FIRST_CLARIFY         1  (  1.0%)
+      OTHER                        1  (  1.0%)
+      CAPABILITY_DISCLAIMER        1  (  1.0%)
+    [with_sys] n=100  OCR= 94.0%  Clean=  6.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              48  ( 48.0%)
+      CLARIFICATION_PLUS          42  ( 42.0%)
+      OTHER                        4  (  4.0%)
+      MEDICAL_LEGAL_DEFLECT        4  (  4.0%)
+      PURE_CLARIFICATION           2  (  2.0%)
+
+  === CONTRADICTION ===
+    [no_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              94  ( 94.0%)
+      OTHER                        6  (  6.0%)
+    [with_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      OTHER                       86  ( 86.0%)
+      FRAMEWORK_DUMP              14  ( 14.0%)
+
+  === NONSENSE ===
+    [no_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              70  ( 70.0%)
+      OTHER                       29  ( 29.0%)
+      CLARIFICATION_PLUS           1  (  1.0%)
+    [with_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              67  ( 67.0%)
+      OTHER                       28  ( 28.0%)
+      CLARIFICATION_PLUS           5  (  5.0%)
+
+  --- AVG CHAR LENGTH ---
+    UNDERSPEC      [no_sys  ]  mean= 1002  median=  832
+    UNDERSPEC      [with_sys]  mean= 1260  median=  884
+    AMBIGUOUS      [no_sys  ]  mean=  745  median=  746
+    AMBIGUOUS      [with_sys]  mean=  737  median=  711
+    CONTRADICTION  [no_sys  ]  mean= 3788  median= 4105
+    CONTRADICTION  [with_sys]  mean=  340  median=  196
+    NONSENSE       [no_sys  ]  mean= 2878  median= 3808
+    NONSENSE       [with_sys]  mean= 2871  median= 3875
