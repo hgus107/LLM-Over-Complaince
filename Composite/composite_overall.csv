@@ -1,0 +1,9 @@
+model,condition,n,OCR_pct,TRR_pct,Clean_pct
+chatgpt,no_sys,400,67.8,0.0,32.2
+chatgpt,with_sys,400,58.0,0.0,42.0
+claude,no_sys,400,75.0,21.8,3.2
+claude,with_sys,400,76.0,2.8,21.2
+gemini,no_sys,400,92.0,0.0,8.0
+gemini,with_sys,400,95.5,0.0,4.5
+llama,no_sys,400,98.8,0.0,1.2
+llama,with_sys,400,98.8,0.0,1.2
