@@ -1,0 +1,94 @@
+
+=========== CLAUDE PAIR (n=800) ===========
+
+  [no_sys] n=400
+    OCR (over-compliant):   300/400 =  75.0%
+    Clean:                   13/400 =   3.2%
+    TRR (terminal refusal):  87/400 =  21.8%
+    category distribution:
+      FRAMEWORK_DUMP             206  ( 51.5%)
+      TERMINAL_REFUSAL            87  ( 21.8%)
+      CLARIFICATION_PLUS          78  ( 19.5%)
+      ANSWER_FIRST_CLARIFY        14  (  3.5%)
+      MEDICAL_LEGAL_DEFLECT        9  (  2.2%)
+      PURE_CLARIFICATION           2  (  0.5%)
+      CLARIFYING_REFUSAL           2  (  0.5%)
+      MEANTIME_HYBRID              1  (  0.2%)
+      OTHER                        1  (  0.2%)
+
+  [with_sys] n=400
+    OCR (over-compliant):   304/400 =  76.0%
+    Clean:                   85/400 =  21.2%
+    TRR (terminal refusal):  11/400 =   2.8%
+    category distribution:
+      FRAMEWORK_DUMP             194  ( 48.5%)
+      CLARIFICATION_PLUS          86  ( 21.5%)
+      CLARIFYING_REFUSAL          78  ( 19.5%)
+      ANSWER_FIRST_CLARIFY        23  (  5.8%)
+      TERMINAL_REFUSAL            11  (  2.8%)
+      MEDICAL_LEGAL_DEFLECT        6  (  1.5%)
+      PURE_CLARIFICATION           1  (  0.2%)
+      OTHER                        1  (  0.2%)
+
+  --- BY PROMPT CATEGORY ---
+
+  === UNDERSPEC ===
+    [no_sys] n=100  OCR= 91.0%  Clean=  9.0%  TRR=  0.0%
+      CLARIFICATION_PLUS          65  ( 65.0%)
+      FRAMEWORK_DUMP              20  ( 20.0%)
+      MEDICAL_LEGAL_DEFLECT        9  (  9.0%)
+      ANSWER_FIRST_CLARIFY         5  (  5.0%)
+      MEANTIME_HYBRID              1  (  1.0%)
+    [with_sys] n=100  OCR= 93.0%  Clean=  7.0%  TRR=  0.0%
+      CLARIFICATION_PLUS          73  ( 73.0%)
+      FRAMEWORK_DUMP              12  ( 12.0%)
+      ANSWER_FIRST_CLARIFY         8  (  8.0%)
+      MEDICAL_LEGAL_DEFLECT        6  (  6.0%)
+      PURE_CLARIFICATION           1  (  1.0%)
+
+  === AMBIGUOUS ===
+    [no_sys] n=100  OCR= 10.0%  Clean=  3.0%  TRR= 87.0%
+      TERMINAL_REFUSAL            87  ( 87.0%)
+      CLARIFICATION_PLUS           7  (  7.0%)
+      CLARIFYING_REFUSAL           2  (  2.0%)
+      PURE_CLARIFICATION           1  (  1.0%)
+      FRAMEWORK_DUMP               1  (  1.0%)
+      ANSWER_FIRST_CLARIFY         1  (  1.0%)
+      OTHER                        1  (  1.0%)
+    [with_sys] n=100  OCR= 11.0%  Clean= 78.0%  TRR= 11.0%
+      CLARIFYING_REFUSAL          78  ( 78.0%)
+      TERMINAL_REFUSAL            11  ( 11.0%)
+      CLARIFICATION_PLUS           5  (  5.0%)
+      FRAMEWORK_DUMP               5  (  5.0%)
+      OTHER                        1  (  1.0%)
+
+  === CONTRADICTION ===
+    [no_sys] n=100  OCR= 99.0%  Clean=  1.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              97  ( 97.0%)
+      PURE_CLARIFICATION           1  (  1.0%)
+      ANSWER_FIRST_CLARIFY         1  (  1.0%)
+      CLARIFICATION_PLUS           1  (  1.0%)
+    [with_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              90  ( 90.0%)
+      CLARIFICATION_PLUS           5  (  5.0%)
+      ANSWER_FIRST_CLARIFY         5  (  5.0%)
+
+  === NONSENSE ===
+    [no_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              88  ( 88.0%)
+      ANSWER_FIRST_CLARIFY         7  (  7.0%)
+      CLARIFICATION_PLUS           5  (  5.0%)
+    [with_sys] n=100  OCR=100.0%  Clean=  0.0%  TRR=  0.0%
+      FRAMEWORK_DUMP              87  ( 87.0%)
+      ANSWER_FIRST_CLARIFY        10  ( 10.0%)
+      CLARIFICATION_PLUS           3  (  3.0%)
+
+  --- AVG CHAR LENGTH ---
+    UNDERSPEC      [no_sys  ]  mean= 1725  median= 1595
+    UNDERSPEC      [with_sys]  mean= 1481  median= 1470
+    AMBIGUOUS      [no_sys  ]  mean=  108  median=   43
+    AMBIGUOUS      [with_sys]  mean=  118  median=   40
+    CONTRADICTION  [no_sys  ]  mean= 3673  median= 3771
+    CONTRADICTION  [with_sys]  mean= 3443  median= 3641
+    NONSENSE       [no_sys  ]  mean= 3001  median= 3137
+    NONSENSE       [with_sys]  mean= 3233  median= 3473
