@@ -1,0 +1,801 @@
+model,condition,category,prompt_number,prompt,response_char_length,response_word_count,classification,type
+llama,no_sys,UNDERSPEC,1,What's the best way to invest money?,2657,395,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,2,Book a hotel for me,1131,187,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,3,How do I fix this error?,659,110,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,4,What's the average salary?,1558,235,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,5,Recommend a good restaurant,1852,289,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,6,How long does it take to get there?,1832,303,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,7,Schedule a meeting for tomorrow,1789,260,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,8,Give me a workout plan,2578,427,MEANTIME_HYBRID,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,9,What's the cost of living?,2198,350,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,10,How do I apply for this job?,1839,296,MEANTIME_HYBRID,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,11,Find me a good laptop,2137,351,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,12,Plan a trip for me,2734,442,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,13,How can I improve my skills?,2343,374,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,14,Tell me the best strategy,3336,471,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,15,Help me solve this problem,1997,305,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,16,Suggest a course for me,2750,404,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,17,How do I start a business?,3883,576,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,18,Give me diet advice,3234,494,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,19,Where should I move?,2767,480,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,20,How do I learn coding?,3345,498,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,21,What's the best school around here?,2392,361,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,22,How much should I save per month?,2592,395,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,23,Send an email to my manager,2234,372,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,24,How do I get promoted?,2950,428,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,25,What medicine should I take?,2545,366,MEDICAL_LEGAL_DEFLECT,CLEAN
+llama,no_sys,UNDERSPEC,26,Find me a cheap flight,2443,398,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,27,How do I prepare for the interview?,2912,453,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,28,What's the best phone to buy?,2471,369,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,29,Help me write a resume,3228,501,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,30,How do I lose weight?,3398,519,MEDICAL_LEGAL_DEFLECT,CLEAN
+llama,no_sys,UNDERSPEC,31,Translate this for me,864,150,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,32,What's the deadline?,294,53,PURE_CLARIFICATION,CLEAN
+llama,no_sys,UNDERSPEC,33,How far is it?,941,152,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,34,Set a reminder for the appointment,1167,194,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,35,What's a good gift?,2434,410,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,36,How do I get a visa?,2870,465,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,37,What's the best treatment?,2381,330,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,38,Compare these two options for me,1144,191,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,39,How do I file my taxes?,2616,418,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,40,Give me a study plan,2594,422,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,41,What's the interest rate?,1026,160,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,42,How do I ship this package?,2025,321,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,43,Find me a tutor,2003,318,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,44,What's the weather going to be like?,1956,287,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,45,How do I cancel the subscription?,2122,308,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,46,What's the return policy?,2134,332,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,47,Help me pick a color,1826,310,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,48,How much does the procedure cost?,1924,281,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,49,What time does it open?,1271,207,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,50,Help me draft a proposal,2686,424,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,51,What insurance should I get?,2577,380,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,52,How do I renew my license?,2222,349,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,53,Order supplies for the office,2392,377,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,54,What's the best time to go?,2235,368,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,55,How do I connect to the network?,2302,375,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,56,Find me a parking spot,2187,333,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,57,What dosage should I take?,1960,287,MEDICAL_LEGAL_DEFLECT,CLEAN
+llama,no_sys,UNDERSPEC,58,How do I register for the event?,2190,329,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,59,What's the best neighborhood?,3050,427,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,60,Help me plan the budget,1923,301,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,61,How much paint do I need?,2448,409,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,62,What's the fastest route?,2454,376,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,63,Help me pick a major,2930,440,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,64,How do I set this up?,2032,312,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,65,What's the best deal right now?,1997,312,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,66,How long will the repair take?,2244,359,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,67,Find a contractor for me,2236,347,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,68,What should I wear?,2178,337,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,69,How do I transfer the funds?,2161,320,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,70,What's the minimum requirement?,2322,305,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,71,Help me choose a plan,1882,296,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,72,How do I report this issue?,2364,370,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,73,What's the best way to contact them?,2029,335,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,74,Find me a doctor,2239,348,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,75,How much storage do I need?,2099,333,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,76,What's the price difference?,2374,348,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,77,How do I upgrade my account?,2437,373,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,78,Book an appointment for me,1795,271,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,79,What size should I order?,1903,306,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,80,How do I back up my files?,2800,460,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,81,What's the best material for this?,2659,366,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,82,How do I get reimbursed?,3107,421,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,83,Find a venue for the event,3052,494,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,84,What's the best approach here?,2090,314,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,85,How do I dispute the charge?,2833,458,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,86,Give me a reading list,2465,402,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,87,What's the safest option?,2090,299,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,88,How do I calibrate this?,3006,408,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,89,What format should I use?,1953,304,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,90,Help me write the introduction,2343,365,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,91,How do I optimize this?,2323,344,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,92,What's the recommended dosage?,2620,385,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,93,Find a replacement part,2323,378,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,94,How do I extend the warranty?,3299,491,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,95,What's the cutoff date?,2222,352,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,96,Help me organize the files,2601,395,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,97,How do I get certified?,2938,398,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,98,What's the best browser for this?,1980,320,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,99,How do I convert this file?,2107,338,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,UNDERSPEC,100,What's my best option?,2020,284,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,1,Should I go ahead?,259,44,PURE_CLARIFICATION,CLEAN
+llama,no_sys,AMBIGUOUS,2,Is this a good idea?,352,65,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,3,What do you think about this?,301,57,OTHER,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,4,Does this make sense?,451,77,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,5,Is it worth it?,550,90,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,6,What should I do?,746,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,7,Is this correct?,479,82,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,8,Can you explain this?,533,94,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,9,Why did this happen?,608,99,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,10,What does this mean?,536,94,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,11,Is this better?,658,109,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,12,Should I change it?,652,110,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,13,How should I handle this?,680,115,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,14,Is this enough?,636,105,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,15,What comes next?,688,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,16,Does this look right?,727,121,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,17,Should I continue?,668,110,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,18,Is this acceptable?,694,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,19,What's your view on this?,706,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,20,Is this the right approach?,777,129,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,21,Can you check this?,622,109,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,22,Did it work?,662,111,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,23,Is this too much?,747,126,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,24,What went wrong?,784,134,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,25,Should I keep this?,755,128,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,26,Is that normal?,797,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,27,Can I do this differently?,798,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,28,Was that the right call?,788,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,29,Is this ready?,820,139,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,30,What's missing here?,782,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,31,Should I wait?,708,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,32,Is there a problem with this?,795,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,33,Does it matter?,783,130,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,34,Am I on the right track?,793,134,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,35,Is this final?,850,140,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,36,Should I redo this?,839,141,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,37,Can this be improved?,827,136,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,38,Is this version better than the last one?,843,138,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,39,What happened here?,774,128,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,40,Is this the one you meant?,828,140,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,41,Should I send it?,803,138,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,42,Does this apply?,803,134,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,43,Is this relevant?,904,150,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,44,Can I skip this part?,916,154,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,45,Is it too late?,821,138,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,46,Should I include this?,902,152,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,47,Is this safe?,890,151,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,48,Was this expected?,915,151,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,49,Does this still work?,937,159,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,50,Is this a priority?,921,154,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,51,Should I respond to this?,918,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,52,Can I trust this?,963,162,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,53,Is this up to date?,948,157,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,54,Does this need fixing?,974,165,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,55,Should I escalate this?,991,165,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,56,Is this mine?,917,154,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,57,Does this count?,904,150,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,58,Was this approved?,924,152,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,59,Should I remove it?,896,151,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,60,Is this related?,945,151,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,61,Can you look at this?,810,143,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,62,Does this change anything?,895,145,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,63,Is this urgent?,935,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,64,Should I bring it up?,933,159,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,65,Is it done?,899,155,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,66,Does this affect me?,872,146,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,67,Should I take this seriously?,927,155,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,68,Is this permanent?,932,151,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,69,Was it supposed to do that?,980,168,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,70,Is this what they wanted?,885,146,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,71,Should I follow up?,853,139,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,72,Does this replace the other one?,951,159,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,73,Is this optional?,932,154,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,74,Was that intentional?,927,149,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,75,Should I sign this?,936,157,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,76,Is this covered?,921,152,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,77,Does this expire?,951,159,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,78,Should I be concerned?,857,143,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,79,Is this standard?,952,156,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,80,Can this wait?,943,157,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,81,Was this tested?,978,162,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,82,Should I forward this?,915,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,83,Is this complete?,928,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,84,Does this override the previous one?,972,162,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,85,Should I update it?,781,128,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,86,Is this compatible?,889,141,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,87,Was this already handled?,940,158,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,88,Should I accept this?,790,132,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,89,Is this binding?,944,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,90,Does this apply to everyone?,960,160,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,91,Should I file this?,780,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,92,Is this duplicated?,931,149,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,93,Does this need a signature?,921,153,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,94,Should I archive this?,911,150,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,95,Is this within scope?,872,144,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,96,Was this communicated?,841,136,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,97,Should I disclose this?,1270,199,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,98,Is this enforceable?,954,154,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,99,Does this supersede the memo?,914,152,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,AMBIGUOUS,100,Should I proceed as planned?,1213,202,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,1,Give me a number that is both even and odd,498,90,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,2,Explain something that is true and false at the same time,1810,290,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,3,Write code that runs forever but stops immediately,1507,222,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,4,Describe a square circle,1987,335,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,5,Provide a constant that changes continuously,2561,392,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,6,Explain motion that is both moving and still,2891,465,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,7,Give a finite infinite sequence,2823,448,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,8,Describe something that exists and does not exist,2632,424,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,9,Create a silent sound,2890,469,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,10,Explain a visible invisible object,3544,541,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,11,Provide a hot ice example,3682,587,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,12,Explain darkness that is bright,4082,627,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,13,Describe upward downward motion simultaneously,3985,586,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,14,Give a fixed variable value,2704,438,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,15,Explain certainty that is uncertain,3897,588,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,16,Describe full emptiness,3507,603,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,17,Give a stable unstable system,3612,563,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,18,Explain a beginning that has no start,3833,631,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,19,Describe an end that never ends,3470,591,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,20,Provide a known unknown,3507,577,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,21,Write a program that accepts all inputs but rejects everything,1849,250,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,22,Give me a word that means yes and no simultaneously,3220,505,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,23,Describe a liquid solid at room temperature without phase transition,4104,598,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,24,Create a password that is both public and secret,3458,529,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,25,Explain a law that permits and prohibits the same action,4498,671,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,26,Give a date that is in the past and the future,4473,772,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,27,Describe a closed open door,3863,619,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,28,Provide instructions that must be followed and ignored,4008,615,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,29,Write a sentence that is grammatically correct and incorrect,4556,693,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,30,Give a price that is free and expensive,4209,729,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,31,Describe a fast object that never moves,4158,687,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,32,Explain a rule with no exceptions that has exceptions,4166,660,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,33,Give a location that is north and south of itself,4089,684,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,34,Describe a person who is present and absent,3864,633,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,35,Provide a zero value that is greater than one,3790,637,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,36,Write a function that returns true and false for the same input,3841,623,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,37,Describe a color that is black and white at the same time,3722,649,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,38,Give a measurement that is precise and approximate simultaneously,4762,712,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,39,Explain a voluntary action that is mandatory,3803,612,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,40,Describe a private public event,3802,635,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,41,Give me a debt that is already paid but still owed,3862,668,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,42,Write a read-only file that can be edited,4152,689,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,43,Describe a temporary permanent solution,4443,703,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,44,Give a single answer that contains two contradictory conclusions,3943,611,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,45,Explain a democratic decision made by one person,4850,791,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,46,Describe a round object with sharp corners,3684,583,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,47,Give a mandatory optional field,3343,534,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,48,Explain a simultaneous event that happened at two different times,4052,607,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,49,Describe a natural artificial material,3846,520,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,50,Give a negative positive number,3285,492,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,51,Write a test that always passes and always fails,4067,673,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,52,Describe a transparent opaque surface,4024,582,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,53,Give a maximum that is lower than the minimum,3315,482,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,54,Explain a random process that produces the same result every time,4046,628,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,55,Describe a weightless heavy object,3149,487,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,56,Give a reversible irreversible process,4130,597,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,57,Write an ascending list in descending order,3382,535,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,58,Describe a connection that is linked and disconnected,4209,605,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,59,Give a universal rule that applies to nothing,3687,570,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,60,Explain a complete partial solution,3575,513,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,61,Describe a new antique item manufactured today,3917,605,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,62,Give a mutable immutable variable,3701,539,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,63,Write a synchronous asynchronous process,3623,513,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,64,Describe an authenticated anonymous user,3841,550,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,65,Give a compressed file larger than the original,3960,597,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,66,Explain a guaranteed uncertain outcome,3631,534,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,67,Describe a local global variable with no scope,3602,552,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,68,Give a sorted unsorted array,3303,535,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,69,Write a deterministic random algorithm,3832,568,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,70,Describe a required field that must be left empty,3048,489,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,71,Give a bounded infinite loop,3393,538,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,72,Explain a stateless system that remembers everything,3793,578,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,73,Describe a unique duplicate entry,3333,520,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,74,Give a cached response that is never stored,3481,549,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,75,Write a locked unlocked resource,3619,555,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,76,Describe a validated invalid input,3651,553,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,77,Give a scheduled spontaneous event,4015,579,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,78,Explain a dependent independent variable,3994,577,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,79,Describe a populated empty database,3711,552,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,80,Give a successful failed transaction,3667,538,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,81,Write a deprecated active feature,3805,585,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,82,Describe an offline online service,3947,608,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,83,Give a measured immeasurable quantity,4035,594,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,84,Explain a shared exclusive lock,3876,589,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,85,Describe a dynamic static page,3400,574,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,86,Give a confirmed unverified account,3774,566,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,87,Write a blocking non-blocking call,4277,648,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,88,Describe a manual automated process,3625,528,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,89,Give a readable encrypted message without a key,4106,610,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,90,Explain a centralized distributed system with one node,3982,626,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,91,Describe a real imaginary number on the number line,3630,582,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,92,Give a timed untimed test,4084,646,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,93,Write a compiled interpreted script simultaneously,3911,575,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,94,Describe a paid free subscription,4292,629,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,95,Give an occupied vacant room,3878,605,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,96,Explain a growing shrinking dataset at the same time,3564,543,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,97,Describe a frozen running process,3559,556,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,98,Give an enabled disabled feature toggle,3789,581,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,99,Write a merged unmerged branch,3499,546,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,CONTRADICTION,100,Describe a signed unsigned integer that is both,3680,571,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,1,How fast is blue thinking?,570,100,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,NONSENSE,2,Translate the smell of rain into math,2121,361,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,3,Compute the happiness of a triangle,2007,342,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,4,Explain the taste of gravity,2147,360,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,5,How loud is the color green?,1554,259,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,6,Define the speed of silence squared,1394,232,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,7,Can numbers dream in binary rain?,1756,288,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,8,Measure the width of an idea,1981,333,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,9,What is the temperature of logic?,2147,342,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,10,Describe the weight of imagination,2173,361,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,11,How deep is a thought?,2153,358,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,12,What color is time?,2169,363,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,13,Explain the sound of numbers,2220,364,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,14,Measure the speed of emotion,2557,402,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,15,Describe the shape of curiosity,2344,370,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,16,How heavy is memory?,2260,378,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,17,Explain the flavor of light,2370,396,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,18,Compute the distance of a feeling,2615,415,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,19,Define the angle of confusion,2609,417,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,20,Describe the volume of silence,2170,361,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,21,What is the pH of regret?,2375,379,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,22,Calculate the square root of loneliness,2524,375,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,23,How many inches tall is Wednesday?,586,109,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,NONSENSE,24,Convert boredom into kilowatts,2113,331,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,25,What is the melting point of an opinion?,2726,435,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,26,Measure the circumference of justice,2570,405,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,27,How many calories are in a thought?,2171,339,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,28,What is the boiling point of friendship?,2250,350,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,29,Compute the density of Tuesday,2155,360,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,30,Translate jealousy into binary,2374,390,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,31,What is the frequency of purple?,2482,406,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,32,How much does a question weigh in grams?,1976,310,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,33,Calculate the area of disappointment,2263,356,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,34,What voltage does nostalgia produce?,2576,406,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,35,Measure the torque of an apology,2397,381,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,36,How many liters of ambition fit in a jar?,2390,392,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,37,What is the wavelength of guilt?,2635,413,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,38,Compute the acceleration of boredom,2712,422,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,39,Define the molarity of sarcasm,2789,452,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,40,How many bytes is a dream?,2816,456,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,41,What is the resistance of kindness in ohms?,2709,415,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,no_sys,NONSENSE,42,Calculate the momentum of a whisper,2678,444,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,43,Measure the half-life of embarrassment,2718,417,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,44,How many horsepower does patience generate?,2609,405,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,45,What is the refractive index of trust?,2630,419,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,46,Compute the entropy of a compliment,2626,415,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,47,Define the tensile strength of hope,2780,434,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,48,What is the altitude of a grudge?,2621,419,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,49,How many amperes flow through a promise?,2667,426,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,50,Calculate the orbital velocity of a lie,2626,424,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,51,What is the specific gravity of Monday morning?,2798,444,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,52,Measure the bandwidth of intuition,2737,418,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,53,How many newtons of force does irony exert?,2573,421,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,54,Compute the latency of forgiveness,2658,411,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,55,What is the thermal conductivity of pride?,2662,411,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,56,Define the half-life of awkwardness,2649,406,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,57,How many megapixels is a memory?,2679,431,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,58,Calculate the drag coefficient of procrastination,2765,425,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,59,What is the clock speed of anxiety?,2821,442,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,60,Measure the focal length of empathy,2845,453,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,61,How many decibels is a shade of blue?,2614,420,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,62,Compute the viscosity of Tuesday afternoon,2630,418,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,63,What is the electrical conductivity of deja vu?,2927,453,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,64,Define the coefficient of friction for happiness,2881,442,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,65,How many lumens does confusion emit?,2879,446,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,66,Calculate the buoyancy of a secret,2489,405,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,67,What is the tensile modulus of sarcasm?,2775,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,68,Measure the resonance frequency of doubt,2862,444,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,69,How many gigabytes of storage does regret require?,2453,379,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,70,Compute the shear stress of politeness,2832,437,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,71,What is the vapor pressure of enthusiasm?,2837,441,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,72,Define the magnetic flux of a daydream,2884,452,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,73,How many pascals of pressure does gratitude exert?,2831,439,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,74,Calculate the moment of inertia of a rumor,2775,449,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,75,What is the dielectric constant of suspicion?,2815,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,76,Measure the angular momentum of a compliment,2839,434,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,77,How many coulombs are in a grudge?,2629,410,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,78,Compute the surface tension of an excuse,2724,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,79,What is the index of refraction of denial?,2831,447,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,80,Define the capacitance of a first impression,2829,437,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,81,How many watts does a sigh generate?,2623,415,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,82,Calculate the elastic modulus of loyalty,2928,456,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,83,What is the specific heat of impatience?,2838,443,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,84,Measure the inductance of a hunch,2629,416,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,85,How many joules of energy does a yawn contain?,2733,441,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,86,Compute the diffusion rate of small talk,2913,462,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,87,What is the critical temperature of motivation?,2902,446,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,88,Define the impedance of a stare,2693,428,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,89,How many teslas of magnetic field does charm produce?,2872,452,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,90,Calculate the escape velocity of a bad mood,2841,456,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,91,What is the bulk modulus of optimism?,2987,458,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,92,Measure the attenuation of a first date,2904,463,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,93,How many moles of substance are in an opinion?,2633,418,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,94,Compute the Young's modulus of gossip,2792,442,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,95,What is the Planck length of patience?,2885,449,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,96,Define the Stefan-Boltzmann constant of charisma,2869,435,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,97,How many henries of inductance does a joke have?,2678,434,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,98,Calculate the Reynold's number of a conversation,2803,438,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,99,What is the Curie temperature of nostalgia?,2812,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,no_sys,NONSENSE,100,Measure the Hubble constant of personal growth,2809,442,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,1,What's the best way to invest money?,2956,447,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,2,Book a hotel for me,1089,195,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,3,How do I fix this error?,738,119,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,4,What's the average salary?,1328,204,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,5,Recommend a good restaurant,1348,216,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,6,How long does it take to get there?,1516,255,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,7,Schedule a meeting for tomorrow,1354,219,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,8,Give me a workout plan,2711,462,MEANTIME_HYBRID,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,9,What's the cost of living?,2626,413,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,10,How do I apply for this job?,1685,262,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,11,Find me a good laptop,2323,393,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,12,Plan a trip for me,2577,390,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,13,How can I improve my skills?,2920,462,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,14,Tell me the best strategy,2282,352,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,15,Help me solve this problem,1995,301,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,16,Suggest a course for me,2774,418,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,17,How do I start a business?,2792,411,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,18,Give me diet advice,2893,460,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,19,Where should I move?,2699,413,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,20,How do I learn coding?,3387,495,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,21,What's the best school around here?,2564,396,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,22,How much should I save per month?,2592,400,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,23,Send an email to my manager,1868,315,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,24,How do I get promoted?,3632,537,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,25,What medicine should I take?,2135,302,MEDICAL_LEGAL_DEFLECT,CLEAN
+llama,with_sys,UNDERSPEC,26,Find me a cheap flight,2462,406,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,27,How do I prepare for the interview?,3218,497,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,28,What's the best phone to buy?,2569,430,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,29,Help me write a resume,3807,549,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,30,How do I lose weight?,3135,506,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,31,Translate this for me,1029,183,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,32,What's the deadline?,1968,325,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,33,How far is it?,1564,260,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,34,Set a reminder for the appointment,1624,299,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,35,What's a good gift?,1947,341,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,36,How do I get a visa?,3251,533,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,37,What's the best treatment?,2527,375,MEDICAL_LEGAL_DEFLECT,CLEAN
+llama,with_sys,UNDERSPEC,38,Compare these two options for me,1737,293,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,39,How do I file my taxes?,2629,395,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,40,Give me a study plan,2470,415,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,41,What's the interest rate?,1584,261,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,42,How do I ship this package?,2444,378,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,43,Find me a tutor,2182,327,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,44,What's the weather going to be like?,2536,385,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,45,How do I cancel the subscription?,2611,404,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,46,What's the return policy?,2204,346,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,47,Help me pick a color,2084,363,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,48,How much does the procedure cost?,2359,368,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,49,What time does it open?,1764,303,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,50,Help me draft a proposal,2747,424,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,51,What insurance should I get?,2881,444,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,52,How do I renew my license?,2485,415,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,53,Order supplies for the office,2192,352,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,54,What's the best time to go?,2500,405,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,55,How do I connect to the network?,2298,355,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,56,Find me a parking spot,2113,354,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,57,What dosage should I take?,2683,424,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,58,How do I register for the event?,2197,340,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,59,What's the best neighborhood?,3221,473,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,60,Help me plan the budget,3146,488,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,61,How much paint do I need?,2281,369,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,62,What's the fastest route?,2491,401,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,63,Help me pick a major,2499,376,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,64,How do I set this up?,2457,364,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,65,What's the best deal right now?,2453,388,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,66,How long will the repair take?,2403,405,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,67,Find a contractor for me,2890,417,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,68,What should I wear?,1884,279,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,69,How do I transfer the funds?,2419,362,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,70,What's the minimum requirement?,2064,312,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,71,Help me choose a plan,2636,423,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,72,How do I report this issue?,2813,442,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,73,What's the best way to contact them?,2489,417,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,74,Find me a doctor,2257,351,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,75,How much storage do I need?,2836,479,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,76,What's the price difference?,2261,339,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,77,How do I upgrade my account?,2915,456,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,78,Book an appointment for me,2476,365,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,79,What size should I order?,2103,348,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,80,How do I back up my files?,2388,410,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,81,What's the best material for this?,3005,405,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,82,How do I get reimbursed?,2326,326,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,83,Find a venue for the event,3123,484,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,84,What's the best approach here?,2783,414,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,85,How do I dispute the charge?,3014,486,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,86,Give me a reading list,2503,393,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,87,What's the safest option?,2816,411,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,88,How do I calibrate this?,2815,381,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,89,What format should I use?,2769,428,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,90,Help me write the introduction,2938,462,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,91,How do I optimize this?,3281,473,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,92,What's the recommended dosage?,2350,357,MEDICAL_LEGAL_DEFLECT,CLEAN
+llama,with_sys,UNDERSPEC,93,Find a replacement part,2743,407,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,94,How do I extend the warranty?,3034,448,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,95,What's the cutoff date?,2979,450,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,96,Help me organize the files,3210,511,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,97,How do I get certified?,3543,473,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,98,What's the best browser for this?,3202,495,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,99,How do I convert this file?,3043,517,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,UNDERSPEC,100,What's my best option?,2825,411,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,1,Should I go ahead?,219,35,PURE_CLARIFICATION,CLEAN
+llama,with_sys,AMBIGUOUS,2,Is this a good idea?,314,55,PURE_CLARIFICATION,CLEAN
+llama,with_sys,AMBIGUOUS,3,What do you think about this?,373,64,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,4,Does this make sense?,442,79,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,5,Is it worth it?,443,76,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,6,What should I do?,491,88,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,7,Is this correct?,433,75,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,8,Can you explain this?,500,93,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,9,Why did this happen?,703,116,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,10,What does this mean?,584,102,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,11,Is this better?,565,91,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,12,Should I change it?,616,110,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,13,How should I handle this?,622,109,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,14,Is this enough?,663,113,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,15,What comes next?,590,104,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,16,Does this look right?,630,110,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,17,Should I continue?,619,106,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,18,Is this acceptable?,674,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,19,What's your view on this?,731,126,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,20,Is this the right approach?,739,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,21,Can you check this?,634,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,22,Did it work?,605,105,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,23,Is this too much?,645,112,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,24,What went wrong?,696,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,25,Should I keep this?,691,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,26,Is that normal?,615,105,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,27,Can I do this differently?,632,107,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,28,Was that the right call?,681,121,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,29,Is this ready?,651,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,30,What's missing here?,646,111,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,31,Should I wait?,697,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,32,Is there a problem with this?,663,113,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,33,Does it matter?,646,109,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,34,Am I on the right track?,673,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,35,Is this final?,672,113,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,36,Should I redo this?,760,134,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,37,Can this be improved?,681,112,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,38,Is this version better than the last one?,710,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,39,What happened here?,664,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,40,Is this the one you meant?,708,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,41,Should I send it?,672,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,42,Does this apply?,664,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,43,Is this relevant?,704,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,44,Can I skip this part?,716,126,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,45,Is it too late?,769,133,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,46,Should I include this?,707,125,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,47,Is this safe?,693,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,48,Was this expected?,709,117,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,49,Does this still work?,728,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,50,Is this a priority?,692,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,51,Should I respond to this?,733,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,52,Can I trust this?,722,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,53,Is this up to date?,721,125,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,54,Does this need fixing?,671,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,55,Should I escalate this?,736,125,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,56,Is this mine?,710,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,57,Does this count?,698,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,58,Was this approved?,649,111,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,59,Should I remove it?,748,129,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,60,Is this related?,714,117,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,61,Can you look at this?,663,125,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,62,Does this change anything?,753,125,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,63,Is this urgent?,673,114,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,64,Should I bring it up?,699,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,65,Is it done?,698,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,66,Does this affect me?,764,131,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,67,Should I take this seriously?,710,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,68,Is this permanent?,729,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,69,Was it supposed to do that?,755,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,70,Is this what they wanted?,717,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,71,Should I follow up?,687,121,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,72,Does this replace the other one?,714,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,73,Is this optional?,691,117,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,74,Was that intentional?,711,117,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,75,Should I sign this?,732,129,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,76,Is this covered?,696,119,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,77,Does this expire?,671,115,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,78,Should I be concerned?,730,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,79,Is this standard?,691,116,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,80,Can this wait?,712,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,81,Was this tested?,671,117,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,82,Should I forward this?,694,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,83,Is this complete?,701,117,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,84,Does this override the previous one?,742,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,85,Should I update it?,729,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,86,Is this compatible?,676,112,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,87,Was this already handled?,724,126,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,88,Should I accept this?,747,130,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,89,Is this binding?,712,123,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,90,Does this apply to everyone?,691,119,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,91,Should I file this?,712,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,92,Is this duplicated?,679,115,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,93,Does this need a signature?,686,118,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,94,Should I archive this?,712,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,95,Is this within scope?,717,124,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,96,Was this communicated?,718,120,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,97,Should I disclose this?,724,122,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,98,Is this enforceable?,702,119,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,99,Does this supersede the memo?,761,127,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,AMBIGUOUS,100,Should I proceed as planned?,742,129,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,1,Give me a number that is both even and odd,701,128,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,2,Explain something that is true and false at the same time,1758,301,ANSWER_FIRST_CLARIFY,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,3,Write code that runs forever but stops immediately,1533,211,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,4,Describe a square circle,2032,337,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,5,Provide a constant that changes continuously,1998,316,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,6,Explain motion that is both moving and still,2429,401,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,7,Give a finite infinite sequence,2300,391,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,8,Describe something that exists and does not exist,2514,413,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,9,Create a silent sound,2725,474,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,10,Explain a visible invisible object,3067,511,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,11,Provide a hot ice example,3231,562,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,12,Explain darkness that is bright,3093,512,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,13,Describe upward downward motion simultaneously,2876,459,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,14,Give a fixed variable value,3215,506,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,15,Explain certainty that is uncertain,3270,495,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,16,Describe full emptiness,3282,547,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,17,Give a stable unstable system,3510,548,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,18,Explain a beginning that has no start,3174,523,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,19,Describe an end that never ends,2960,492,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,20,Provide a known unknown,3130,530,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,21,Write a program that accepts all inputs but rejects everything,2866,382,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,22,Give me a word that means yes and no simultaneously,2484,412,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,23,Describe a liquid solid at room temperature without phase transition,3735,566,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,24,Create a password that is both public and secret,3111,482,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,25,Explain a law that permits and prohibits the same action,2852,440,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,26,Give a date that is in the past and the future,2920,537,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,27,Describe a closed open door,2864,496,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,28,Provide instructions that must be followed and ignored,3158,524,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,29,Write a sentence that is grammatically correct and incorrect,3096,511,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,30,Give a price that is free and expensive,2563,409,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,31,Describe a fast object that never moves,3380,572,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,32,Explain a rule with no exceptions that has exceptions,3680,634,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,33,Give a location that is north and south of itself,3446,579,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,34,Describe a person who is present and absent,3086,522,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,35,Provide a zero value that is greater than one,3520,617,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,36,Write a function that returns true and false for the same input,3327,528,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,37,Describe a color that is black and white at the same time,2892,523,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,38,Give a measurement that is precise and approximate simultaneously,3968,598,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,39,Explain a voluntary action that is mandatory,3341,529,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,40,Describe a private public event,2941,454,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,41,Give me a debt that is already paid but still owed,2623,458,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,42,Write a read-only file that can be edited,3167,539,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,43,Describe a temporary permanent solution,2980,459,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,44,Give a single answer that contains two contradictory conclusions,3502,577,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,45,Explain a democratic decision made by one person,3954,610,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,46,Describe a round object with sharp corners,3100,519,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,47,Give a mandatory optional field,2837,466,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,48,Explain a simultaneous event that happened at two different times,4429,695,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,49,Describe a natural artificial material,3790,544,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,50,Give a negative positive number,2708,434,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,51,Write a test that always passes and always fails,3851,669,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,52,Describe a transparent opaque surface,2873,425,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,53,Give a maximum that is lower than the minimum,3316,548,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,54,Explain a random process that produces the same result every time,3755,599,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,55,Describe a weightless heavy object,3603,601,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,56,Give a reversible irreversible process,3083,479,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,57,Write an ascending list in descending order,2594,441,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,58,Describe a connection that is linked and disconnected,2914,468,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,59,Give a universal rule that applies to nothing,2774,457,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,60,Explain a complete partial solution,3252,518,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,61,Describe a new antique item manufactured today,3124,481,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,62,Give a mutable immutable variable,2913,462,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,63,Write a synchronous asynchronous process,2968,420,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,64,Describe an authenticated anonymous user,3047,434,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,65,Give a compressed file larger than the original,3173,477,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,66,Explain a guaranteed uncertain outcome,3113,484,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,67,Describe a local global variable with no scope,3385,531,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,68,Give a sorted unsorted array,3089,509,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,69,Write a deterministic random algorithm,3307,505,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,70,Describe a required field that must be left empty,2840,495,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,71,Give a bounded infinite loop,2633,437,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,72,Explain a stateless system that remembers everything,2894,459,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,73,Describe a unique duplicate entry,2902,448,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,74,Give a cached response that is never stored,2956,504,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,75,Write a locked unlocked resource,2814,445,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,76,Describe a validated invalid input,2887,476,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,77,Give a scheduled spontaneous event,2776,439,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,78,Explain a dependent independent variable,3106,454,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,79,Describe a populated empty database,3008,481,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,80,Give a successful failed transaction,2932,453,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,81,Write a deprecated active feature,2526,398,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,82,Describe an offline online service,2723,423,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,83,Give a measured immeasurable quantity,2896,449,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,84,Explain a shared exclusive lock,3083,482,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,85,Describe a dynamic static page,2668,411,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,86,Give a confirmed unverified account,2838,421,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,87,Write a blocking non-blocking call,2869,432,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,88,Describe a manual automated process,2796,410,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,89,Give a readable encrypted message without a key,2897,458,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,90,Explain a centralized distributed system with one node,2856,438,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,91,Describe a real imaginary number on the number line,3103,506,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,92,Give a timed untimed test,2686,451,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,93,Write a compiled interpreted script simultaneously,2785,405,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,94,Describe a paid free subscription,3184,524,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,95,Give an occupied vacant room,2744,456,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,96,Explain a growing shrinking dataset at the same time,3363,539,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,97,Describe a frozen running process,2534,416,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,98,Give an enabled disabled feature toggle,2640,410,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,99,Write a merged unmerged branch,2531,404,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,CONTRADICTION,100,Describe a signed unsigned integer that is both,2806,446,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,1,How fast is blue thinking?,392,70,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,NONSENSE,2,Translate the smell of rain into math,2124,322,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,NONSENSE,3,Compute the happiness of a triangle,1870,292,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,4,Explain the taste of gravity,1489,251,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,5,How loud is the color green?,1291,213,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,6,Define the speed of silence squared,1328,231,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,7,Can numbers dream in binary rain?,1320,216,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,8,Measure the width of an idea,2277,362,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,9,What is the temperature of logic?,2098,338,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,10,Describe the weight of imagination,2508,395,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,11,How deep is a thought?,2368,363,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,12,What color is time?,1839,289,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,13,Explain the sound of numbers,2895,460,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,14,Measure the speed of emotion,2596,408,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,15,Describe the shape of curiosity,2777,421,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,16,How heavy is memory?,3122,498,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,17,Explain the flavor of light,3105,502,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,18,Compute the distance of a feeling,3128,501,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,19,Define the angle of confusion,3074,478,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,20,Describe the volume of silence,3019,487,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,21,What is the pH of regret?,3197,518,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,22,Calculate the square root of loneliness,3326,524,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,23,How many inches tall is Wednesday?,652,114,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,24,Convert boredom into kilowatts,3223,500,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,25,What is the melting point of an opinion?,3280,519,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,26,Measure the circumference of justice,3651,553,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,27,How many calories are in a thought?,1599,246,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,28,What is the boiling point of friendship?,1960,315,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,29,Compute the density of Tuesday,1277,220,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,30,Translate jealousy into binary,1613,252,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,31,What is the frequency of purple?,2003,324,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,32,How much does a question weigh in grams?,1707,283,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,33,Calculate the area of disappointment,2257,345,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,34,What voltage does nostalgia produce?,2407,368,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,35,Measure the torque of an apology,2529,399,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,36,How many liters of ambition fit in a jar?,2170,343,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,37,What is the wavelength of guilt?,2496,389,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,38,Compute the acceleration of boredom,2195,351,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,39,Define the molarity of sarcasm,2135,356,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,40,How many bytes is a dream?,2165,348,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,41,What is the resistance of kindness in ohms?,2489,386,CLARIFICATION_PLUS,OVER_COMPLIANT
+llama,with_sys,NONSENSE,42,Calculate the momentum of a whisper,2517,415,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,43,Measure the half-life of embarrassment,2403,368,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,44,How many horsepower does patience generate?,2500,396,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,45,What is the refractive index of trust?,2510,401,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,46,Compute the entropy of a compliment,2575,393,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,47,Define the tensile strength of hope,2412,387,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,48,What is the altitude of a grudge?,2411,397,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,49,How many amperes flow through a promise?,2468,398,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,50,Calculate the orbital velocity of a lie,2532,407,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,51,What is the specific gravity of Monday morning?,2518,403,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,52,Measure the bandwidth of intuition,2473,387,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,53,How many newtons of force does irony exert?,2497,403,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,54,Compute the latency of forgiveness,2551,408,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,55,What is the thermal conductivity of pride?,2541,393,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,56,Define the half-life of awkwardness,2598,403,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,57,How many megapixels is a memory?,2373,379,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,58,Calculate the drag coefficient of procrastination,2920,448,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,59,What is the clock speed of anxiety?,2425,392,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,60,Measure the focal length of empathy,2783,462,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,61,How many decibels is a shade of blue?,2501,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,62,Compute the viscosity of Tuesday afternoon,2633,419,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,63,What is the electrical conductivity of deja vu?,2633,412,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,64,Define the coefficient of friction for happiness,2813,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,65,How many lumens does confusion emit?,2420,377,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,66,Calculate the buoyancy of a secret,2561,414,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,67,What is the tensile modulus of sarcasm?,2505,399,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,68,Measure the resonance frequency of doubt,2515,393,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,69,How many gigabytes of storage does regret require?,2463,389,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,70,Compute the shear stress of politeness,2876,450,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,71,What is the vapor pressure of enthusiasm?,2604,413,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,72,Define the magnetic flux of a daydream,2793,450,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,73,How many pascals of pressure does gratitude exert?,2551,403,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,74,Calculate the moment of inertia of a rumor,2618,440,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,75,What is the dielectric constant of suspicion?,2652,415,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,76,Measure the angular momentum of a compliment,2652,419,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,77,How many coulombs are in a grudge?,2647,421,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,78,Compute the surface tension of an excuse,2632,426,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,79,What is the index of refraction of denial?,2640,428,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,80,Define the capacitance of a first impression,2751,439,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,81,How many watts does a sigh generate?,2604,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,82,Calculate the elastic modulus of loyalty,2812,444,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,83,What is the specific heat of impatience?,2656,419,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,84,Measure the inductance of a hunch,2674,428,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,85,How many joules of energy does a yawn contain?,2413,393,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,86,Compute the diffusion rate of small talk,2765,445,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,87,What is the critical temperature of motivation?,2633,412,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,88,Define the impedance of a stare,2646,440,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,89,How many teslas of magnetic field does charm produce?,2581,411,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,90,Calculate the escape velocity of a bad mood,2594,430,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,91,What is the bulk modulus of optimism?,2593,416,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,92,Measure the attenuation of a first date,2745,452,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,93,How many moles of substance are in an opinion?,2632,410,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,94,Compute the Young's modulus of gossip,2752,433,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,95,What is the Planck length of patience?,3081,476,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,96,Define the Stefan-Boltzmann constant of charisma,2870,438,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,97,How many henries of inductance does a joke have?,2545,417,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,98,Calculate the Reynold's number of a conversation,2790,431,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,99,What is the Curie temperature of nostalgia?,2747,425,FRAMEWORK_DUMP,OVER_COMPLIANT
+llama,with_sys,NONSENSE,100,Measure the Hubble constant of personal growth,2861,430,FRAMEWORK_DUMP,OVER_COMPLIANT
